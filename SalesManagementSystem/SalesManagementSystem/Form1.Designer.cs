@@ -37,16 +37,16 @@
             this.btnNewProduct = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
             this.btnProductStatistics = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
+            this.btnBrandStatistics = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem12 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem13 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem14 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem15 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem16 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem17 = new DevExpress.XtraBars.BarButtonItem();
+            this.btnNewClient = new DevExpress.XtraBars.BarButtonItem();
+            this.btnClientList = new DevExpress.XtraBars.BarButtonItem();
+            this.btnClientCityStatistics = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem18 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem19 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem20 = new DevExpress.XtraBars.BarButtonItem();
@@ -54,10 +54,10 @@
             this.barButtonItem22 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem23 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem24 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem25 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem26 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem27 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem28 = new DevExpress.XtraBars.BarButtonItem();
+            this.btnStaffList = new DevExpress.XtraBars.BarButtonItem();
+            this.btnNewStaff = new DevExpress.XtraBars.BarButtonItem();
+            this.btnDepartmentList = new DevExpress.XtraBars.BarButtonItem();
+            this.btnNewDepartment = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem29 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem30 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem31 = new DevExpress.XtraBars.BarButtonItem();
@@ -113,16 +113,16 @@
             this.btnNewProduct,
             this.barButtonItem5,
             this.btnProductStatistics,
-            this.barButtonItem7,
+            this.btnBrandStatistics,
             this.barButtonItem8,
             this.barButtonItem9,
             this.barButtonItem12,
             this.barButtonItem13,
             this.barButtonItem14,
             this.barButtonItem15,
-            this.barButtonItem3,
-            this.barButtonItem16,
-            this.barButtonItem17,
+            this.btnNewClient,
+            this.btnClientList,
+            this.btnClientCityStatistics,
             this.barButtonItem18,
             this.barButtonItem19,
             this.barButtonItem20,
@@ -130,10 +130,10 @@
             this.barButtonItem22,
             this.barButtonItem23,
             this.barButtonItem24,
-            this.barButtonItem25,
-            this.barButtonItem26,
-            this.barButtonItem27,
-            this.barButtonItem28,
+            this.btnStaffList,
+            this.btnNewStaff,
+            this.btnDepartmentList,
+            this.btnNewDepartment,
             this.barButtonItem29,
             this.barButtonItem30,
             this.barButtonItem31,
@@ -209,12 +209,13 @@
             this.btnProductStatistics.Name = "btnProductStatistics";
             this.btnProductStatistics.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnProductStatistics_ItemClick);
             // 
-            // barButtonItem7
+            // btnBrandStatistics
             // 
-            this.barButtonItem7.Caption = "Brand Statistics";
-            this.barButtonItem7.Id = 7;
-            this.barButtonItem7.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem7.ImageOptions.SvgImage")));
-            this.barButtonItem7.Name = "barButtonItem7";
+            this.btnBrandStatistics.Caption = "Brand Statistics";
+            this.btnBrandStatistics.Id = 7;
+            this.btnBrandStatistics.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnBrandStatistics.ImageOptions.SvgImage")));
+            this.btnBrandStatistics.Name = "btnBrandStatistics";
+            this.btnBrandStatistics.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnBrandStatistics_ItemClick);
             // 
             // barButtonItem8
             // 
@@ -257,26 +258,29 @@
             this.barButtonItem15.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem15.ImageOptions.SvgImage")));
             this.barButtonItem15.Name = "barButtonItem15";
             // 
-            // barButtonItem3
+            // btnNewClient
             // 
-            this.barButtonItem3.Caption = "New \r\nClient";
-            this.barButtonItem3.Id = 16;
-            this.barButtonItem3.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem3.ImageOptions.SvgImage")));
-            this.barButtonItem3.Name = "barButtonItem3";
+            this.btnNewClient.Caption = "New \r\nClient";
+            this.btnNewClient.Id = 16;
+            this.btnNewClient.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnNewClient.ImageOptions.SvgImage")));
+            this.btnNewClient.Name = "btnNewClient";
+            this.btnNewClient.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnNewClient_ItemClick);
             // 
-            // barButtonItem16
+            // btnClientList
             // 
-            this.barButtonItem16.Caption = "Client List";
-            this.barButtonItem16.Id = 17;
-            this.barButtonItem16.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem16.ImageOptions.SvgImage")));
-            this.barButtonItem16.Name = "barButtonItem16";
+            this.btnClientList.Caption = "Client List";
+            this.btnClientList.Id = 17;
+            this.btnClientList.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnClientList.ImageOptions.SvgImage")));
+            this.btnClientList.Name = "btnClientList";
+            this.btnClientList.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnClientList_ItemClick);
             // 
-            // barButtonItem17
+            // btnClientCityStatistics
             // 
-            this.barButtonItem17.Caption = "Client City Statistics";
-            this.barButtonItem17.Id = 18;
-            this.barButtonItem17.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem17.ImageOptions.SvgImage")));
-            this.barButtonItem17.Name = "barButtonItem17";
+            this.btnClientCityStatistics.Caption = "Client City Statistics";
+            this.btnClientCityStatistics.Id = 18;
+            this.btnClientCityStatistics.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnClientCityStatistics.ImageOptions.SvgImage")));
+            this.btnClientCityStatistics.Name = "btnClientCityStatistics";
+            this.btnClientCityStatistics.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnClientCityStatistics_ItemClick);
             // 
             // barButtonItem18
             // 
@@ -327,33 +331,36 @@
             this.barButtonItem24.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem24.ImageOptions.SvgImage")));
             this.barButtonItem24.Name = "barButtonItem24";
             // 
-            // barButtonItem25
+            // btnStaffList
             // 
-            this.barButtonItem25.Caption = "Staff List";
-            this.barButtonItem25.Id = 26;
-            this.barButtonItem25.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem25.ImageOptions.SvgImage")));
-            this.barButtonItem25.Name = "barButtonItem25";
+            this.btnStaffList.Caption = "Staff List";
+            this.btnStaffList.Id = 26;
+            this.btnStaffList.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnStaffList.ImageOptions.SvgImage")));
+            this.btnStaffList.Name = "btnStaffList";
+            this.btnStaffList.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnStaffList_ItemClick);
             // 
-            // barButtonItem26
+            // btnNewStaff
             // 
-            this.barButtonItem26.Caption = "New \r\nStaff";
-            this.barButtonItem26.Id = 27;
-            this.barButtonItem26.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem26.ImageOptions.SvgImage")));
-            this.barButtonItem26.Name = "barButtonItem26";
+            this.btnNewStaff.Caption = "New \r\nStaff";
+            this.btnNewStaff.Id = 27;
+            this.btnNewStaff.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnNewStaff.ImageOptions.SvgImage")));
+            this.btnNewStaff.Name = "btnNewStaff";
             // 
-            // barButtonItem27
+            // btnDepartmentList
             // 
-            this.barButtonItem27.Caption = "Department List";
-            this.barButtonItem27.Id = 28;
-            this.barButtonItem27.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem27.ImageOptions.SvgImage")));
-            this.barButtonItem27.Name = "barButtonItem27";
+            this.btnDepartmentList.Caption = "Department List";
+            this.btnDepartmentList.Id = 28;
+            this.btnDepartmentList.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnDepartmentList.ImageOptions.SvgImage")));
+            this.btnDepartmentList.Name = "btnDepartmentList";
+            this.btnDepartmentList.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnDepartmentList_ItemClick);
             // 
-            // barButtonItem28
+            // btnNewDepartment
             // 
-            this.barButtonItem28.Caption = "New Department";
-            this.barButtonItem28.Id = 29;
-            this.barButtonItem28.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem28.ImageOptions.SvgImage")));
-            this.barButtonItem28.Name = "barButtonItem28";
+            this.btnNewDepartment.Caption = "New Department";
+            this.btnNewDepartment.Id = 29;
+            this.btnNewDepartment.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnNewDepartment.ImageOptions.SvgImage")));
+            this.btnNewDepartment.Name = "btnNewDepartment";
+            this.btnNewDepartment.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnNewDepartment_ItemClick);
             // 
             // barButtonItem29
             // 
@@ -488,7 +495,7 @@
             // ribbonPageGroup11
             // 
             this.ribbonPageGroup11.ItemLinks.Add(this.btnProductStatistics);
-            this.ribbonPageGroup11.ItemLinks.Add(this.barButtonItem7);
+            this.ribbonPageGroup11.ItemLinks.Add(this.btnBrandStatistics);
             this.ribbonPageGroup11.Name = "ribbonPageGroup11";
             this.ribbonPageGroup11.Text = "ribbonPageGroup11";
             // 
@@ -516,9 +523,9 @@
             // 
             // ribbonPageGroup3
             // 
-            this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem3);
-            this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem16);
-            this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem17);
+            this.ribbonPageGroup3.ItemLinks.Add(this.btnNewClient);
+            this.ribbonPageGroup3.ItemLinks.Add(this.btnClientList);
+            this.ribbonPageGroup3.ItemLinks.Add(this.btnClientCityStatistics);
             this.ribbonPageGroup3.Name = "ribbonPageGroup3";
             this.ribbonPageGroup3.Text = "ribbonPageGroup3";
             // 
@@ -557,15 +564,15 @@
             // 
             // ribbonPageGroup6
             // 
-            this.ribbonPageGroup6.ItemLinks.Add(this.barButtonItem25);
-            this.ribbonPageGroup6.ItemLinks.Add(this.barButtonItem26);
+            this.ribbonPageGroup6.ItemLinks.Add(this.btnStaffList);
+            this.ribbonPageGroup6.ItemLinks.Add(this.btnNewStaff);
             this.ribbonPageGroup6.Name = "ribbonPageGroup6";
             this.ribbonPageGroup6.Text = "ribbonPageGroup6";
             // 
             // ribbonPageGroup15
             // 
-            this.ribbonPageGroup15.ItemLinks.Add(this.barButtonItem27);
-            this.ribbonPageGroup15.ItemLinks.Add(this.barButtonItem28);
+            this.ribbonPageGroup15.ItemLinks.Add(this.btnDepartmentList);
+            this.ribbonPageGroup15.ItemLinks.Add(this.btnNewDepartment);
             this.ribbonPageGroup15.Name = "ribbonPageGroup15";
             this.ribbonPageGroup15.Text = "ribbonPageGroup15";
             // 
@@ -689,7 +696,7 @@
         private DevExpress.XtraBars.BarButtonItem btnNewProduct;
         private DevExpress.XtraBars.BarButtonItem barButtonItem5;
         private DevExpress.XtraBars.BarButtonItem btnProductStatistics;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem7;
+        private DevExpress.XtraBars.BarButtonItem btnBrandStatistics;
         private DevExpress.XtraBars.BarButtonItem barButtonItem8;
         private DevExpress.XtraBars.BarButtonItem barButtonItem9;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup11;
@@ -702,9 +709,9 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem15;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup13;
         private DevExpress.XtraTabbedMdi.XtraTabbedMdiManager xtraTabbedMdiManager1;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem3;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem16;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem17;
+        private DevExpress.XtraBars.BarButtonItem btnNewClient;
+        private DevExpress.XtraBars.BarButtonItem btnClientList;
+        private DevExpress.XtraBars.BarButtonItem btnClientCityStatistics;
         private DevExpress.XtraBars.BarButtonItem barButtonItem18;
         private DevExpress.XtraBars.BarButtonItem barButtonItem19;
         private DevExpress.XtraBars.BarButtonItem barButtonItem20;
@@ -713,10 +720,10 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem23;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup14;
         private DevExpress.XtraBars.BarButtonItem barButtonItem24;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem25;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem26;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem27;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem28;
+        private DevExpress.XtraBars.BarButtonItem btnStaffList;
+        private DevExpress.XtraBars.BarButtonItem btnNewStaff;
+        private DevExpress.XtraBars.BarButtonItem btnDepartmentList;
+        private DevExpress.XtraBars.BarButtonItem btnNewDepartment;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup15;
         private DevExpress.XtraBars.BarButtonItem barButtonItem29;
         private DevExpress.XtraBars.BarButtonItem barButtonItem30;

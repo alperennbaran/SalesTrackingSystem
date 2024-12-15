@@ -36,12 +36,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Charts.v24.2.Core, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Data.Desktop.v24.2, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Data.v24.2, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Drawing.v24.2, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v24.2.Core, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v24.2, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraBars.v24.2, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v24.2, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v24.2.UI, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v24.2.Wizard, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraEditors.v24.2, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraGrid.v24.2, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraLayout.v24.2, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -99,35 +103,77 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormCategory.cs">
+    <Compile Include="Forms\Clients\FormClientCityStatistics.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormCategory.Designer.cs">
+    <Compile Include="Forms\Clients\FormClientCityStatistics.Designer.cs">
+      <DependentUpon>FormClientCityStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Clients\FormClientList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clients\FormClientList.Designer.cs">
+      <DependentUpon>FormClientList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Clients\FormNewClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clients\FormNewClient.Designer.cs">
+      <DependentUpon>FormNewClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Products\FormBrandStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Products\FormBrandStatistics.Designer.cs">
+      <DependentUpon>FormBrandStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Products\FormCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Products\FormCategory.Designer.cs">
       <DependentUpon>FormCategory.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormNewCategory.cs">
+    <Compile Include="Forms\Products\FormNewCategory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormNewCategory.Designer.cs">
+    <Compile Include="Forms\Products\FormNewCategory.Designer.cs">
       <DependentUpon>FormNewCategory.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormNewProduct.cs">
+    <Compile Include="Forms\Products\FormNewProduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormNewProduct.Designer.cs">
+    <Compile Include="Forms\Products\FormNewProduct.Designer.cs">
       <DependentUpon>FormNewProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormProductList.cs">
+    <Compile Include="Forms\Products\FormProductList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormProductList.Designer.cs">
+    <Compile Include="Forms\Products\FormProductList.Designer.cs">
       <DependentUpon>FormProductList.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormProductStatistics.cs">
+    <Compile Include="Forms\Products\FormProductStatistics.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormProductStatistics.Designer.cs">
+    <Compile Include="Forms\Products\FormProductStatistics.Designer.cs">
       <DependentUpon>FormProductStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Staff\FormDepartmentList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Staff\FormDepartmentList.Designer.cs">
+      <DependentUpon>FormDepartmentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Staff\FormNewDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Staff\FormNewDepartment.Designer.cs">
+      <DependentUpon>FormNewDepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Staff\FormStaffList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Staff\FormStaffList.Designer.cs">
+      <DependentUpon>FormStaffList.cs</DependentUpon>
     </Compile>
     <Compile Include="invoicedetail.cs">
       <DependentUpon>Model1.tt</DependentUpon>
@@ -172,21 +218,45 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormCategory.resx">
+    <EmbeddedResource Include="Forms\Clients\FormClientCityStatistics.resx">
+      <DependentUpon>FormClientCityStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Clients\FormClientList.resx">
+      <DependentUpon>FormClientList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Clients\FormNewClient.resx">
+      <DependentUpon>FormNewClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Products\FormBrandStatistics.resx">
+      <DependentUpon>FormBrandStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Products\FormCategory.resx">
       <DependentUpon>FormCategory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormNewCategory.resx">
+    <EmbeddedResource Include="Forms\Products\FormNewCategory.resx">
       <DependentUpon>FormNewCategory.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormNewProduct.resx">
+    <EmbeddedResource Include="Forms\Products\FormNewProduct.resx">
       <DependentUpon>FormNewProduct.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormProductList.resx">
+    <EmbeddedResource Include="Forms\Products\FormProductList.resx">
       <DependentUpon>FormProductList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormProductStatistics.resx">
+    <EmbeddedResource Include="Forms\Products\FormProductStatistics.resx">
       <DependentUpon>FormProductStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Staff\FormDepartmentList.resx">
+      <DependentUpon>FormDepartmentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Staff\FormNewDepartment.resx">
+      <DependentUpon>FormNewDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Staff\FormStaffList.resx">
+      <DependentUpon>FormStaffList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">

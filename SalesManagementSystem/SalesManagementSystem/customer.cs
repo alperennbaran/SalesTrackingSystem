@@ -25,12 +25,12 @@ namespace SalesManagementSystem
         public int customerid { get; set; }
         public string name { get; set; }
         public string surname { get; set; }
-        public string phone { get; set; }
+        public string phonenumber { get; set; }
         public string mail { get; set; }
         public short cityid { get; set; }
         public string bank { get; set; }
         public string taxoffice { get; set; }
-        public string tax { get; set; }
+        public string taxnumber { get; set; }
         public string position { get; set; }
         public string address { get; set; }
     

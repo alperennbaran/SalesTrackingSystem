@@ -34,12 +34,12 @@
           <Property Name="customerid" Type="int4" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="name" Type="varchar" MaxLength="30" Nullable="false" />
           <Property Name="surname" Type="varchar" MaxLength="30" Nullable="false" />
-          <Property Name="phone" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="phonenumber" Type="varchar" MaxLength="20" Nullable="false" />
           <Property Name="mail" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="cityid" Type="int2" Nullable="false" />
           <Property Name="bank" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="taxoffice" Type="varchar" MaxLength="50" Nullable="false" />
-          <Property Name="tax" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="taxnumber" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="position" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="address" Type="varchar" MaxLength="250" Nullable="false" />
         </EntityType>
@@ -424,12 +424,12 @@
           <Property Name="customerid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="name" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="surname" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="phonenumber" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="cityid" Type="Int16" Nullable="false" />
           <Property Name="bank" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="taxoffice" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="tax" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="taxnumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="position" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="address" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
           <NavigationProperty Name="city" Relationship="Self.customer_cityid_fkey" FromRole="customer" ToRole="city" />
@@ -839,12 +839,12 @@
                 <ScalarProperty Name="customerid" ColumnName="customerid" />
                 <ScalarProperty Name="name" ColumnName="name" />
                 <ScalarProperty Name="surname" ColumnName="surname" />
-                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="phonenumber" ColumnName="phonenumber" />
                 <ScalarProperty Name="mail" ColumnName="mail" />
                 <ScalarProperty Name="cityid" ColumnName="cityid" />
                 <ScalarProperty Name="bank" ColumnName="bank" />
                 <ScalarProperty Name="taxoffice" ColumnName="taxoffice" />
-                <ScalarProperty Name="tax" ColumnName="tax" />
+                <ScalarProperty Name="taxnumber" ColumnName="taxnumber" />
                 <ScalarProperty Name="position" ColumnName="position" />
                 <ScalarProperty Name="address" ColumnName="address" />
               </MappingFragment>

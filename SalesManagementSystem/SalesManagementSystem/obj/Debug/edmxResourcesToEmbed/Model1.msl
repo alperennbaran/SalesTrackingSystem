@@ -32,12 +32,12 @@
           <ScalarProperty Name="customerid" ColumnName="customerid" />
           <ScalarProperty Name="name" ColumnName="name" />
           <ScalarProperty Name="surname" ColumnName="surname" />
-          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="phonenumber" ColumnName="phonenumber" />
           <ScalarProperty Name="mail" ColumnName="mail" />
           <ScalarProperty Name="cityid" ColumnName="cityid" />
           <ScalarProperty Name="bank" ColumnName="bank" />
           <ScalarProperty Name="taxoffice" ColumnName="taxoffice" />
-          <ScalarProperty Name="tax" ColumnName="tax" />
+          <ScalarProperty Name="taxnumber" ColumnName="taxnumber" />
           <ScalarProperty Name="position" ColumnName="position" />
           <ScalarProperty Name="address" ColumnName="address" />
         </MappingFragment>

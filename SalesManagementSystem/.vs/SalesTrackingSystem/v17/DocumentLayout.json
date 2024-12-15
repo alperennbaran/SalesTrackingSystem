@@ -3,56 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|c:\\users\\ahmetmelih\\desktop\\sales_tracking_system\\salesmanagementsystem\\salesmanagementsystem\\admintable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|solutionrelative:salesmanagementsystem\\admintable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|c:\\users\\ahmetmelih\\desktop\\sales_tracking_system\\salesmanagementsystem\\salesmanagementsystem\\forms\\clients\\formclientcitystatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|solutionrelative:salesmanagementsystem\\forms\\clients\\formclientcitystatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormProductStatistics.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|solutionrelative:SalesManagementSystem\\Forms\\FormProductStatistics.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\salesmanagementsystem\\forms\\products\\formproductlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|solutionrelative:salesmanagementsystem\\forms\\products\\formproductlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\salesmanagementsystem\\forms\\formproductstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|solutionrelative:salesmanagementsystem\\forms\\formproductstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\salesmanagementsystem\\forms\\clients\\formclientlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|solutionrelative:salesmanagementsystem\\forms\\clients\\formclientlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormProductStatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|solutionrelative:SalesManagementSystem\\Forms\\FormProductStatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\salesmanagementsystem\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|solutionrelative:salesmanagementsystem\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\salesmanagementsystem\\forms\\clients\\formclientlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|solutionrelative:salesmanagementsystem\\forms\\clients\\formclientlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\salesmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|solutionrelative:salesmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\salesmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|solutionrelative:salesmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\salesmanagementsystem\\forms\\formnewproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|solutionrelative:salesmanagementsystem\\forms\\formnewproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\salesmanagementsystem\\forms\\products\\formproductlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|solutionrelative:salesmanagementsystem\\forms\\products\\formproductlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormCategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|solutionrelative:SalesManagementSystem\\Forms\\FormCategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\salesmanagementsystem\\forms\\clients\\formclientcitystatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|solutionrelative:salesmanagementsystem\\forms\\clients\\formclientcitystatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|solutionrelative:SalesManagementSystem\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\salesmanagementsystem\\forms\\clients\\formclientlist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|solutionrelative:salesmanagementsystem\\forms\\clients\\formclientlist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormNewProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|solutionrelative:SalesManagementSystem\\Forms\\FormNewProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\salesmanagementsystem\\forms\\formnewproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:salesmanagementsystem\\forms\\formnewproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormNewCategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|solutionrelative:SalesManagementSystem\\Forms\\FormNewCategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormNewProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SalesManagementSystem\\Forms\\FormNewProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\salesmanagementsystem\\forms\\formnewcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|solutionrelative:salesmanagementsystem\\forms\\formnewcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormNewCategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SalesManagementSystem\\Forms\\FormNewCategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormProductList.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|solutionrelative:SalesManagementSystem\\Forms\\FormProductList.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\salesmanagementsystem\\forms\\formcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{13F59359-C26A-4C34-ADA5-365576BF2B75}|SalesManagementSystem\\SalesTrackingSystem.csproj|solutionrelative:salesmanagementsystem\\forms\\formcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\salesmanagementsystem\\forms\\formnewcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:salesmanagementsystem\\forms\\formnewcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,67 +66,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "admintable.cs",
-              "DocumentMoniker": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\admintable.cs",
-              "RelativeDocumentMoniker": "SalesManagementSystem\\admintable.cs",
-              "ToolTip": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\admintable.cs",
-              "RelativeToolTip": "SalesManagementSystem\\admintable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "DBHelper.cs",
+              "DocumentMoniker": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\DBHelper.cs",
+              "RelativeDocumentMoniker": "SalesManagementSystem\\DBHelper.cs",
+              "ToolTip": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\DBHelper.cs",
+              "RelativeToolTip": "SalesManagementSystem\\DBHelper.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBgAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T08:39:58.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T13:39:16.509Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FormProductStatistics.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormProductStatistics.Designer.cs",
-              "RelativeDocumentMoniker": "SalesManagementSystem\\Forms\\FormProductStatistics.Designer.cs",
-              "ToolTip": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormProductStatistics.Designer.cs",
-              "RelativeToolTip": "SalesManagementSystem\\Forms\\FormProductStatistics.Designer.cs",
-              "ViewState": "AgIAAHcBAAAAAAAAAAAUwJoBAAAAAAAAAAAAAA==",
+              "Title": "FormProductList.cs",
+              "DocumentMoniker": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\Products\\FormProductList.cs",
+              "RelativeDocumentMoniker": "SalesManagementSystem\\Forms\\Products\\FormProductList.cs",
+              "ToolTip": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\Products\\FormProductList.cs",
+              "RelativeToolTip": "SalesManagementSystem\\Forms\\Products\\FormProductList.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAADwv3MAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T00:11:22.02Z"
+              "WhenOpened": "2024-12-15T12:34:26.769Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FormProductStatistics.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormProductStatistics.cs",
-              "RelativeDocumentMoniker": "SalesManagementSystem\\Forms\\FormProductStatistics.cs",
-              "ToolTip": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormProductStatistics.cs [Design]",
-              "RelativeToolTip": "SalesManagementSystem\\Forms\\FormProductStatistics.cs [Design]",
+              "Title": "FormClientList.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\Clients\\FormClientList.cs",
+              "RelativeDocumentMoniker": "SalesManagementSystem\\Forms\\Clients\\FormClientList.cs",
+              "ToolTip": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\Clients\\FormClientList.cs [Design]",
+              "RelativeToolTip": "SalesManagementSystem\\Forms\\Clients\\FormClientList.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T22:55:29.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormProductStatistics.cs",
-              "DocumentMoniker": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormProductStatistics.cs",
-              "RelativeDocumentMoniker": "SalesManagementSystem\\Forms\\FormProductStatistics.cs",
-              "ToolTip": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormProductStatistics.cs",
-              "RelativeToolTip": "SalesManagementSystem\\Forms\\FormProductStatistics.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T23:07:51.005Z"
+              "WhenOpened": "2024-12-15T12:03:26.654Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "FormClientList.cs",
+              "DocumentMoniker": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\Clients\\FormClientList.cs",
+              "RelativeDocumentMoniker": "SalesManagementSystem\\Forms\\Clients\\FormClientList.cs",
+              "ToolTip": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\Clients\\FormClientList.cs",
+              "RelativeToolTip": "SalesManagementSystem\\Forms\\Clients\\FormClientList.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwBoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:34:17.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Form1.cs",
+              "RelativeDocumentMoniker": "SalesManagementSystem\\Form1.cs",
+              "ToolTip": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Form1.cs",
+              "RelativeToolTip": "SalesManagementSystem\\Form1.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAA0wEcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:26:25.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormClientCityStatistics.cs",
+              "DocumentMoniker": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\Clients\\FormClientCityStatistics.cs",
+              "RelativeDocumentMoniker": "SalesManagementSystem\\Forms\\Clients\\FormClientCityStatistics.cs",
+              "ToolTip": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\Clients\\FormClientCityStatistics.cs",
+              "RelativeToolTip": "SalesManagementSystem\\Forms\\Clients\\FormClientCityStatistics.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:55:22.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Form1.cs",
               "RelativeDocumentMoniker": "SalesManagementSystem\\Form1.cs",
@@ -133,7 +157,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "FormProductList.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\Products\\FormProductList.cs",
+              "RelativeDocumentMoniker": "SalesManagementSystem\\Forms\\Products\\FormProductList.cs",
+              "ToolTip": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\Products\\FormProductList.cs [Design]",
+              "RelativeToolTip": "SalesManagementSystem\\Forms\\Products\\FormProductList.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:03:50.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormClientCityStatistics.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\Clients\\FormClientCityStatistics.cs",
+              "RelativeDocumentMoniker": "SalesManagementSystem\\Forms\\Clients\\FormClientCityStatistics.cs",
+              "ToolTip": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\Clients\\FormClientCityStatistics.cs [Design]*",
+              "RelativeToolTip": "SalesManagementSystem\\Forms\\Clients\\FormClientCityStatistics.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:50:47.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormClientList.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\Clients\\FormClientList.Designer.cs",
+              "RelativeDocumentMoniker": "SalesManagementSystem\\Forms\\Clients\\FormClientList.Designer.cs",
+              "ToolTip": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\Clients\\FormClientList.Designer.cs",
+              "RelativeToolTip": "SalesManagementSystem\\Forms\\Clients\\FormClientList.Designer.cs",
+              "ViewState": "AgIAACABAAAAAAAAAAAEwDABAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:46:50.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "FormNewProduct.cs [Design]",
               "DocumentMoniker": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormNewProduct.cs",
               "RelativeDocumentMoniker": "SalesManagementSystem\\Forms\\FormNewProduct.cs",
@@ -144,30 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormCategory.cs",
-              "DocumentMoniker": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormCategory.cs",
-              "RelativeDocumentMoniker": "SalesManagementSystem\\Forms\\FormCategory.cs",
-              "ToolTip": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormCategory.cs",
-              "RelativeToolTip": "SalesManagementSystem\\Forms\\FormCategory.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T21:33:07.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Form1.cs",
-              "RelativeDocumentMoniker": "SalesManagementSystem\\Form1.cs",
-              "ToolTip": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Form1.cs",
-              "RelativeToolTip": "SalesManagementSystem\\Form1.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAuwDAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T12:58:24.878Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "FormNewProduct.cs",
               "DocumentMoniker": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormNewProduct.cs",
               "RelativeDocumentMoniker": "SalesManagementSystem\\Forms\\FormNewProduct.cs",
@@ -179,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "FormNewCategory.cs",
               "DocumentMoniker": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormNewCategory.cs",
               "RelativeDocumentMoniker": "SalesManagementSystem\\Forms\\FormNewCategory.cs",
@@ -190,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "FormNewCategory.cs [Design]",
               "DocumentMoniker": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormNewCategory.cs",
               "RelativeDocumentMoniker": "SalesManagementSystem\\Forms\\FormNewCategory.cs",
@@ -198,29 +233,6 @@
               "RelativeToolTip": "SalesManagementSystem\\Forms\\FormNewCategory.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T22:30:32.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FormProductList.cs",
-              "DocumentMoniker": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormProductList.cs",
-              "RelativeDocumentMoniker": "SalesManagementSystem\\Forms\\FormProductList.cs",
-              "ToolTip": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormProductList.cs",
-              "RelativeToolTip": "SalesManagementSystem\\Forms\\FormProductList.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAywJkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T12:58:38.583Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "FormCategory.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormCategory.cs",
-              "RelativeDocumentMoniker": "SalesManagementSystem\\Forms\\FormCategory.cs",
-              "ToolTip": "C:\\Users\\AhmetMelih\\Desktop\\Sales_Tracking_System\\SalesManagementSystem\\SalesManagementSystem\\Forms\\FormCategory.cs [Design]",
-              "RelativeToolTip": "SalesManagementSystem\\Forms\\FormCategory.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T21:27:59.387Z"
             }
           ]
         }

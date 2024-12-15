@@ -29,12 +29,12 @@
     <Property Name="customerid" Type="int4" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="name" Type="varchar" MaxLength="30" Nullable="false" />
     <Property Name="surname" Type="varchar" MaxLength="30" Nullable="false" />
-    <Property Name="phone" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="phonenumber" Type="varchar" MaxLength="20" Nullable="false" />
     <Property Name="mail" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="cityid" Type="int2" Nullable="false" />
     <Property Name="bank" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="taxoffice" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="tax" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="taxnumber" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="position" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="address" Type="varchar" MaxLength="250" Nullable="false" />
   </EntityType>
