@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0eb20364b72c416b8f09e6da236fecaf" Name="Diagram1">
+        <EntityTypeShape EntityType="SalesTrackingSystemModel.admintable" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesTrackingSystemModel.category" Width="1.5" PointX="0.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesTrackingSystemModel.city" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesTrackingSystemModel.customer" Width="1.5" PointX="3" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesTrackingSystemModel.department" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesTrackingSystemModel.expense" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesTrackingSystemModel.faultdetail" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesTrackingSystemModel.invoicedetail" Width="1.5" PointX="7.5" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesTrackingSystemModel.invoiceinfo" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesTrackingSystemModel.mynotes" Width="1.5" PointX="9.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesTrackingSystemModel.product" Width="1.5" PointX="3" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesTrackingSystemModel.productacceptance" Width="1.5" PointX="8.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesTrackingSystemModel.productmovement" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesTrackingSystemModel.producttracking" Width="1.5" PointX="5.25" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesTrackingSystemModel.staff" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <AssociationConnector Association="SalesTrackingSystemModel.product_categoryid_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="SalesTrackingSystemModel.customer_cityid_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="SalesTrackingSystemModel.invoiceinfo_customerid_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="SalesTrackingSystemModel.productacceptance_customerid_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="SalesTrackingSystemModel.productmovement_customerid_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="SalesTrackingSystemModel.staff_departmentid_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="SalesTrackingSystemModel.invoicedetail_invoiceid_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="SalesTrackingSystemModel.invoiceinfo_staffid_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="SalesTrackingSystemModel.productacceptance_productid_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="SalesTrackingSystemModel.productmovement_productid_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="SalesTrackingSystemModel.producttracking_productid_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="SalesTrackingSystemModel.productacceptance_staffid_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="SalesTrackingSystemModel.productmovement_staffid_fkey" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

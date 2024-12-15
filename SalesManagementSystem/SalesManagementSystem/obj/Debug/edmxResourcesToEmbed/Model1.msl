@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SalesTrackingSystemModelStoreContainer" CdmEntityContainer="SalesTrackingSystemEntities">
+    <EntitySetMapping Name="admintable">
+      <EntityTypeMapping TypeName="SalesTrackingSystemModel.admintable">
+        <MappingFragment StoreEntitySet="admintable">
+          <ScalarProperty Name="adminid" ColumnName="adminid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="category">
+      <EntityTypeMapping TypeName="SalesTrackingSystemModel.category">
+        <MappingFragment StoreEntitySet="category">
+          <ScalarProperty Name="categoryid" ColumnName="categoryid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="city">
+      <EntityTypeMapping TypeName="SalesTrackingSystemModel.city">
+        <MappingFragment StoreEntitySet="city">
+          <ScalarProperty Name="cityid" ColumnName="cityid" />
+          <ScalarProperty Name="cityname" ColumnName="cityname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="customer">
+      <EntityTypeMapping TypeName="SalesTrackingSystemModel.customer">
+        <MappingFragment StoreEntitySet="customer">
+          <ScalarProperty Name="customerid" ColumnName="customerid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="surname" ColumnName="surname" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="cityid" ColumnName="cityid" />
+          <ScalarProperty Name="bank" ColumnName="bank" />
+          <ScalarProperty Name="taxoffice" ColumnName="taxoffice" />
+          <ScalarProperty Name="tax" ColumnName="tax" />
+          <ScalarProperty Name="position" ColumnName="position" />
+          <ScalarProperty Name="address" ColumnName="address" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="department">
+      <EntityTypeMapping TypeName="SalesTrackingSystemModel.department">
+        <MappingFragment StoreEntitySet="department">
+          <ScalarProperty Name="departmentid" ColumnName="departmentid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="comment" ColumnName="comment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="expense">
+      <EntityTypeMapping TypeName="SalesTrackingSystemModel.expense">
+        <MappingFragment StoreEntitySet="expense">
+          <ScalarProperty Name="expenseid" ColumnName="expenseid" />
+          <ScalarProperty Name="expensedescription" ColumnName="expensedescription" />
+          <ScalarProperty Name="expensedate" ColumnName="expensedate" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="faultdetail">
+      <EntityTypeMapping TypeName="SalesTrackingSystemModel.faultdetail">
+        <MappingFragment StoreEntitySet="faultdetail">
+          <ScalarProperty Name="faultid" ColumnName="faultid" />
+          <ScalarProperty Name="processid" ColumnName="processid" />
+          <ScalarProperty Name="issue" ColumnName="issue" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="initialprice" ColumnName="initialprice" />
+          <ScalarProperty Name="finalprice" ColumnName="finalprice" />
+          <ScalarProperty Name="actions" ColumnName="actions" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="invoicedetail">
+      <EntityTypeMapping TypeName="SalesTrackingSystemModel.invoicedetail">
+        <MappingFragment StoreEntitySet="invoicedetail">
+          <ScalarProperty Name="invoicedetailid" ColumnName="invoicedetailid" />
+          <ScalarProperty Name="product" ColumnName="product" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="invoiceid" ColumnName="invoiceid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="invoiceinfo">
+      <EntityTypeMapping TypeName="SalesTrackingSystemModel.invoiceinfo">
+        <MappingFragment StoreEntitySet="invoiceinfo">
+          <ScalarProperty Name="invoiceid" ColumnName="invoiceid" />
+          <ScalarProperty Name="series" ColumnName="series" />
+          <ScalarProperty Name="serialno" ColumnName="serialno" />
+          <ScalarProperty Name="invoicedate" ColumnName="invoicedate" />
+          <ScalarProperty Name="invoicetime" ColumnName="invoicetime" />
+          <ScalarProperty Name="taxoffice" ColumnName="taxoffice" />
+          <ScalarProperty Name="customerid" ColumnName="customerid" />
+          <ScalarProperty Name="staffid" ColumnName="staffid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mynotes">
+      <EntityTypeMapping TypeName="SalesTrackingSystemModel.mynotes">
+        <MappingFragment StoreEntitySet="mynotes">
+          <ScalarProperty Name="noteid" ColumnName="noteid" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="product">
+      <EntityTypeMapping TypeName="SalesTrackingSystemModel.product">
+        <MappingFragment StoreEntitySet="product">
+          <ScalarProperty Name="productid" ColumnName="productid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="brand" ColumnName="brand" />
+          <ScalarProperty Name="purchase" ColumnName="purchase" />
+          <ScalarProperty Name="sale" ColumnName="sale" />
+          <ScalarProperty Name="stock" ColumnName="stock" />
+          <ScalarProperty Name="categoryid" ColumnName="categoryid" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="productacceptance">
+      <EntityTypeMapping TypeName="SalesTrackingSystemModel.productacceptance">
+        <MappingFragment StoreEntitySet="productacceptance">
+          <ScalarProperty Name="acceptanceid" ColumnName="acceptanceid" />
+          <ScalarProperty Name="productid" ColumnName="productid" />
+          <ScalarProperty Name="customerid" ColumnName="customerid" />
+          <ScalarProperty Name="staffid" ColumnName="staffid" />
+          <ScalarProperty Name="arrivaldate" ColumnName="arrivaldate" />
+          <ScalarProperty Name="departuredate" ColumnName="departuredate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="productmovement">
+      <EntityTypeMapping TypeName="SalesTrackingSystemModel.productmovement">
+        <MappingFragment StoreEntitySet="productmovement">
+          <ScalarProperty Name="movementid" ColumnName="movementid" />
+          <ScalarProperty Name="productid" ColumnName="productid" />
+          <ScalarProperty Name="customerid" ColumnName="customerid" />
+          <ScalarProperty Name="staffid" ColumnName="staffid" />
+          <ScalarProperty Name="movementdate" ColumnName="movementdate" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="price" ColumnName="price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="producttracking">
+      <EntityTypeMapping TypeName="SalesTrackingSystemModel.producttracking">
+        <MappingFragment StoreEntitySet="producttracking">
+          <ScalarProperty Name="trackingid" ColumnName="trackingid" />
+          <ScalarProperty Name="productid" ColumnName="productid" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="trackingdate" ColumnName="trackingdate" />
+          <ScalarProperty Name="trackingcode" ColumnName="trackingcode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="staff">
+      <EntityTypeMapping TypeName="SalesTrackingSystemModel.staff">
+        <MappingFragment StoreEntitySet="staff">
+          <ScalarProperty Name="staffid" ColumnName="staffid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="surname" ColumnName="surname" />
+          <ScalarProperty Name="departmentid" ColumnName="departmentid" />
+          <ScalarProperty Name="photograph" ColumnName="photograph" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
