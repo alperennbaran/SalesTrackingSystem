@@ -7,30 +7,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
-namespace SalesManagementSystem
+public class DBHelper : IDisposable
 {
-    public class DBHelper
+    public NpgsqlConnection connection;
+    public NpgsqlCommand command;
+    public NpgsqlDataAdapter dataAdapter;
+
+    public DBHelper(string query)
     {
-        public NpgsqlConnection connection;
-        public NpgsqlCommand command;
-        public NpgsqlDataAdapter dataAdapter;
-        public NpgsqlDataReader ndr;
-
-        public DBHelper(string query)
-        {
-            connection = new NpgsqlConnection("server=localhost; port=5432; Database=SalesTrackingSystem; user ID=postgres; password=admin");
-            connection.Open();
-            command = new NpgsqlCommand(query, connection);
-            dataAdapter = new NpgsqlDataAdapter(command);
-            
-        }
-
-        ~DBHelper()
-        {
-            if (connection != null && connection.State == ConnectionState.Open)
-                connection.Close();
-        }
+        connection = new NpgsqlConnection("server=localhost; port=5432; Database=SalesTrackingSystem; user ID=postgres; password=ecem");
+        connection.Open();
+        command = new NpgsqlCommand(query, connection);
+        dataAdapter = new NpgsqlDataAdapter(command);
     }
 
+    public void Dispose()
+    {
+        if (connection != null && connection.State == ConnectionState.Open)
+            connection.Close();
+        dataAdapter?.Dispose();
+        command?.Dispose();
+        connection?.Dispose();
+    }
 }

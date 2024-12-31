@@ -17,9 +17,8 @@ namespace SalesManagementSystem
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public product()
         {
-            this.productacceptance = new HashSet<productacceptance>();
             this.productmovement = new HashSet<productmovement>();
-            this.producttracking = new HashSet<producttracking>();
+            this.productmovement1 = new HashSet<productmovement>();
         }
     
         public int productid { get; set; }
@@ -33,10 +32,8 @@ namespace SalesManagementSystem
     
         public virtual category category { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<productacceptance> productacceptance { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<productmovement> productmovement { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<producttracking> producttracking { get; set; }
+        public virtual ICollection<productmovement> productmovement1 { get; set; }
     }
 }

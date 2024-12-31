@@ -70,6 +70,39 @@ namespace SalesManagementSystem.Forms
                 // Total Number of Brands
                 query = "SELECT COUNT(DISTINCT brand) FROM Product";
                 labelControl19.Text = ExecuteScalarQuery(query);
+
+                // Total Number of Defective Products
+                query = "SELECT COUNT(productserialno) FROM ProductAcceptance WHERE productstatus = True";
+                labelControl33.Text = ExecuteScalarQuery(query);
+
+                // The Category That Has the Most Products
+                query = "SELECT c.name " +
+                    "FROM Category c, Product p " +
+                    "WHERE c.categoryid = p.categoryid " +
+                    "GROUP BY c.Name " +
+                    "ORDER BY COUNT(p.ProductID) DESC " +
+                    "LIMIT 1;";
+                labelControl13.Text = ExecuteScalarQuery(query);
+               
+                // The Brand With the Most Products
+                query = "SELECT brand FROM Product GROUP BY brand ORDER BY COUNT(*) DESC LIMIT 1";
+                labelControl37.Text = ExecuteScalarQuery(query);
+
+                // The Number of Repaired Products
+                query = "SELECT COUNT(productstatus) FROM ProductAcceptance WHERE productstatus = False";
+                labelControl21.Text = ExecuteScalarQuery(query);
+
+                // The Number of Toys in Stock
+                query = "SELECT COUNT(*) FROM Product WHERE categoryid = 5";
+                labelControl31.Text = ExecuteScalarQuery(query);
+
+                // Total Number of Staff
+                query = "SELECT COUNT(*) FROM Staff";
+                labelControl29.Text = ExecuteScalarQuery(query);
+
+                //en çok işlem yapan personel
+                query = "SELECT CONCAT(s.Name, ' ', s.Surname) AS FullName, COUNT(*) AS TotalMovements FROM Staff s JOIN ProductMovement pm ON s.StaffID = pm.StaffID GROUP BY s.StaffID, s.Name, s.Surname ORDER BY TotalMovements DESC LIMIT 1";
+                labelControl27.Text = ExecuteScalarQuery(query);
             }
             catch (Exception ex)
             {

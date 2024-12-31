@@ -1,15 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="SalesTrackingSystemModelStoreContainer" CdmEntityContainer="SalesTrackingSystemEntities">
-    <EntitySetMapping Name="admintable">
-      <EntityTypeMapping TypeName="SalesTrackingSystemModel.admintable">
-        <MappingFragment StoreEntitySet="admintable">
-          <ScalarProperty Name="adminid" ColumnName="adminid" />
-          <ScalarProperty Name="name" ColumnName="name" />
-          <ScalarProperty Name="password" ColumnName="password" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="category">
       <EntityTypeMapping TypeName="SalesTrackingSystemModel.category">
         <MappingFragment StoreEntitySet="category">
@@ -104,6 +95,7 @@
     <EntitySetMapping Name="mynotes">
       <EntityTypeMapping TypeName="SalesTrackingSystemModel.mynotes">
         <MappingFragment StoreEntitySet="mynotes">
+          <ScalarProperty Name="date" ColumnName="date" />
           <ScalarProperty Name="noteid" ColumnName="noteid" />
           <ScalarProperty Name="title" ColumnName="title" />
           <ScalarProperty Name="content" ColumnName="content" />
@@ -128,8 +120,10 @@
     <EntitySetMapping Name="productacceptance">
       <EntityTypeMapping TypeName="SalesTrackingSystemModel.productacceptance">
         <MappingFragment StoreEntitySet="productacceptance">
+          <ScalarProperty Name="productstatusdetail" ColumnName="productstatusdetail" />
+          <ScalarProperty Name="productstatus" ColumnName="productstatus" />
+          <ScalarProperty Name="productserialno" ColumnName="productserialno" />
           <ScalarProperty Name="acceptanceid" ColumnName="acceptanceid" />
-          <ScalarProperty Name="productid" ColumnName="productid" />
           <ScalarProperty Name="customerid" ColumnName="customerid" />
           <ScalarProperty Name="staffid" ColumnName="staffid" />
           <ScalarProperty Name="arrivaldate" ColumnName="arrivaldate" />
@@ -140,6 +134,7 @@
     <EntitySetMapping Name="productmovement">
       <EntityTypeMapping TypeName="SalesTrackingSystemModel.productmovement">
         <MappingFragment StoreEntitySet="productmovement">
+          <ScalarProperty Name="productserialno" ColumnName="productserialno" />
           <ScalarProperty Name="movementid" ColumnName="movementid" />
           <ScalarProperty Name="productid" ColumnName="productid" />
           <ScalarProperty Name="customerid" ColumnName="customerid" />
@@ -153,11 +148,11 @@
     <EntitySetMapping Name="producttracking">
       <EntityTypeMapping TypeName="SalesTrackingSystemModel.producttracking">
         <MappingFragment StoreEntitySet="producttracking">
+          <ScalarProperty Name="comment" ColumnName="comment" />
+          <ScalarProperty Name="serialno" ColumnName="serialno" />
           <ScalarProperty Name="trackingid" ColumnName="trackingid" />
-          <ScalarProperty Name="productid" ColumnName="productid" />
           <ScalarProperty Name="status" ColumnName="status" />
           <ScalarProperty Name="trackingdate" ColumnName="trackingdate" />
-          <ScalarProperty Name="trackingcode" ColumnName="trackingcode" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -171,6 +166,27 @@
           <ScalarProperty Name="photograph" ColumnName="photograph" />
           <ScalarProperty Name="mail" ColumnName="mail" />
           <ScalarProperty Name="phone" ColumnName="phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="contact">
+      <EntityTypeMapping TypeName="SalesTrackingSystemModel.contact">
+        <MappingFragment StoreEntitySet="contact">
+          <ScalarProperty Name="message" ColumnName="message" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="fullname" ColumnName="fullname" />
+          <ScalarProperty Name="messageid" ColumnName="messageid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="SalesTrackingSystemModel.users">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="role" ColumnName="role" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

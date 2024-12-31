@@ -25,7 +25,6 @@ namespace SalesManagementSystem
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<admintable> admintable { get; set; }
         public virtual DbSet<category> category { get; set; }
         public virtual DbSet<city> city { get; set; }
         public virtual DbSet<customer> customer { get; set; }
@@ -40,5 +39,7 @@ namespace SalesManagementSystem
         public virtual DbSet<productmovement> productmovement { get; set; }
         public virtual DbSet<producttracking> producttracking { get; set; }
         public virtual DbSet<staff> staff { get; set; }
+        public virtual DbSet<contact> contact { get; set; }
+        public virtual DbSet<users> users { get; set; }
     }
 }

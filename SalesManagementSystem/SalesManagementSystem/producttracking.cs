@@ -15,11 +15,9 @@ namespace SalesManagementSystem
     public partial class producttracking
     {
         public int trackingid { get; set; }
-        public int productid { get; set; }
         public string status { get; set; }
         public System.DateTime trackingdate { get; set; }
-        public string trackingcode { get; set; }
-    
-        public virtual product product { get; set; }
+        public string serialno { get; set; }
+        public string comment { get; set; }
     }
 }

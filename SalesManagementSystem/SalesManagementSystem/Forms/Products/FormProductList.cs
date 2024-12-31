@@ -26,13 +26,14 @@ namespace SalesManagementSystem.Forms
         private void FormProductList_Load(object sender, EventArgs e)
         {
             listProduct();
-            lookUpEdit1.Properties.DataSource = db.category.ToList();
+            lookUpEdit1.Properties.DataSource = (from x in db.category
+                                                 select new
+                                                 {
+                                                     x.categoryid,
+                                                     x.name
+                                                 }).ToList();
         }
 
-        private void btnSave_Click(object sender, EventArgs e)
-        {
-           
-        }
         private void btnList_Click(object sender, EventArgs e)
         {
             listProduct();
@@ -79,7 +80,7 @@ namespace SalesManagementSystem.Forms
             txtPurchasePrice.Text = gridView1.GetFocusedRowCellValue("purchase")?.ToString();
             txtSalePrice.Text = gridView1.GetFocusedRowCellValue("sale")?.ToString();
             txtStock.Text = gridView1.GetFocusedRowCellValue("stock")?.ToString();
-            lookUpEdit1.EditValue = gridView1.GetFocusedRowCellValue("category_name")?.ToString();
+            lookUpEdit1.Text = gridView1.GetFocusedRowCellValue("category_name")?.ToString();
         }
 
         private void btnDelete_Click(object sender, EventArgs e)

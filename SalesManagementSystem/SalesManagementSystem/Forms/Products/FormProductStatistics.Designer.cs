@@ -119,9 +119,10 @@
             this.panel1.Controls.Add(this.labelControl2);
             this.panel1.Controls.Add(this.labelControl1);
             this.panel1.Enabled = false;
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Location = new System.Drawing.Point(16, 15);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(262, 150);
+            this.panel1.Size = new System.Drawing.Size(349, 185);
             this.panel1.TabIndex = 0;
             // 
             // labelControl2
@@ -131,9 +132,10 @@
             this.labelControl2.Appearance.Options.UseFont = true;
             this.labelControl2.Appearance.Options.UseForeColor = true;
             this.labelControl2.Enabled = false;
-            this.labelControl2.Location = new System.Drawing.Point(99, 65);
+            this.labelControl2.Location = new System.Drawing.Point(132, 80);
+            this.labelControl2.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(60, 45);
+            this.labelControl2.Size = new System.Drawing.Size(75, 56);
             this.labelControl2.TabIndex = 1;
             this.labelControl2.Text = "655";
             // 
@@ -144,9 +146,10 @@
             this.labelControl1.Appearance.Options.UseFont = true;
             this.labelControl1.Appearance.Options.UseForeColor = true;
             this.labelControl1.Enabled = false;
-            this.labelControl1.Location = new System.Drawing.Point(49, 40);
+            this.labelControl1.Location = new System.Drawing.Point(65, 49);
+            this.labelControl1.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(164, 19);
+            this.labelControl1.Size = new System.Drawing.Size(200, 24);
             this.labelControl1.TabIndex = 0;
             this.labelControl1.Text = "Total Product Count";
             // 
@@ -156,9 +159,10 @@
             this.panel2.Controls.Add(this.labelControl3);
             this.panel2.Controls.Add(this.labelControl4);
             this.panel2.Enabled = false;
-            this.panel2.Location = new System.Drawing.Point(280, 12);
+            this.panel2.Location = new System.Drawing.Point(373, 15);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(262, 150);
+            this.panel2.Size = new System.Drawing.Size(349, 185);
             this.panel2.TabIndex = 3;
             // 
             // labelControl3
@@ -168,9 +172,10 @@
             this.labelControl3.Appearance.Options.UseFont = true;
             this.labelControl3.Appearance.Options.UseForeColor = true;
             this.labelControl3.Enabled = false;
-            this.labelControl3.Location = new System.Drawing.Point(95, 65);
+            this.labelControl3.Location = new System.Drawing.Point(127, 80);
+            this.labelControl3.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(60, 45);
+            this.labelControl3.Size = new System.Drawing.Size(75, 56);
             this.labelControl3.TabIndex = 1;
             this.labelControl3.Text = "655";
             // 
@@ -181,9 +186,10 @@
             this.labelControl4.Appearance.Options.UseFont = true;
             this.labelControl4.Appearance.Options.UseForeColor = true;
             this.labelControl4.Enabled = false;
-            this.labelControl4.Location = new System.Drawing.Point(44, 40);
+            this.labelControl4.Location = new System.Drawing.Point(59, 49);
+            this.labelControl4.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(175, 19);
+            this.labelControl4.Size = new System.Drawing.Size(212, 24);
             this.labelControl4.TabIndex = 0;
             this.labelControl4.Text = "Total Category Count";
             // 
@@ -193,9 +199,10 @@
             this.panel3.Controls.Add(this.labelControl5);
             this.panel3.Controls.Add(this.labelControl6);
             this.panel3.Enabled = false;
-            this.panel3.Location = new System.Drawing.Point(548, 12);
+            this.panel3.Location = new System.Drawing.Point(731, 15);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(262, 150);
+            this.panel3.Size = new System.Drawing.Size(349, 185);
             this.panel3.TabIndex = 4;
             // 
             // labelControl5
@@ -205,9 +212,10 @@
             this.labelControl5.Appearance.Options.UseFont = true;
             this.labelControl5.Appearance.Options.UseForeColor = true;
             this.labelControl5.Enabled = false;
-            this.labelControl5.Location = new System.Drawing.Point(99, 65);
+            this.labelControl5.Location = new System.Drawing.Point(132, 80);
+            this.labelControl5.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(60, 45);
+            this.labelControl5.Size = new System.Drawing.Size(75, 56);
             this.labelControl5.TabIndex = 1;
             this.labelControl5.Text = "655";
             // 
@@ -218,9 +226,10 @@
             this.labelControl6.Appearance.Options.UseFont = true;
             this.labelControl6.Appearance.Options.UseForeColor = true;
             this.labelControl6.Enabled = false;
-            this.labelControl6.Location = new System.Drawing.Point(71, 31);
+            this.labelControl6.Location = new System.Drawing.Point(95, 38);
+            this.labelControl6.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(146, 19);
+            this.labelControl6.Size = new System.Drawing.Size(177, 24);
             this.labelControl6.TabIndex = 0;
             this.labelControl6.Text = "Total Stock Count";
             // 
@@ -230,9 +239,10 @@
             this.panel4.Controls.Add(this.labelControl7);
             this.panel4.Controls.Add(this.labelControl8);
             this.panel4.Enabled = false;
-            this.panel4.Location = new System.Drawing.Point(816, 12);
+            this.panel4.Location = new System.Drawing.Point(1088, 15);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(262, 150);
+            this.panel4.Size = new System.Drawing.Size(349, 185);
             this.panel4.TabIndex = 4;
             // 
             // labelControl7
@@ -242,9 +252,10 @@
             this.labelControl7.Appearance.Options.UseFont = true;
             this.labelControl7.Appearance.Options.UseForeColor = true;
             this.labelControl7.Enabled = false;
-            this.labelControl7.Location = new System.Drawing.Point(91, 65);
+            this.labelControl7.Location = new System.Drawing.Point(121, 80);
+            this.labelControl7.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(60, 45);
+            this.labelControl7.Size = new System.Drawing.Size(75, 56);
             this.labelControl7.TabIndex = 1;
             this.labelControl7.Text = "655";
             // 
@@ -255,9 +266,10 @@
             this.labelControl8.Appearance.Options.UseFont = true;
             this.labelControl8.Appearance.Options.UseForeColor = true;
             this.labelControl8.Enabled = false;
-            this.labelControl8.Location = new System.Drawing.Point(67, 31);
+            this.labelControl8.Location = new System.Drawing.Point(89, 38);
+            this.labelControl8.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl8.Name = "labelControl8";
-            this.labelControl8.Size = new System.Drawing.Size(106, 19);
+            this.labelControl8.Size = new System.Drawing.Size(130, 24);
             this.labelControl8.TabIndex = 0;
             this.labelControl8.Text = "Critical Level";
             // 
@@ -267,9 +279,10 @@
             this.panel5.Controls.Add(this.labelControl9);
             this.panel5.Controls.Add(this.labelControl10);
             this.panel5.Enabled = false;
-            this.panel5.Location = new System.Drawing.Point(12, 168);
+            this.panel5.Location = new System.Drawing.Point(16, 207);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(262, 150);
+            this.panel5.Size = new System.Drawing.Size(349, 185);
             this.panel5.TabIndex = 5;
             // 
             // labelControl9
@@ -279,9 +292,10 @@
             this.labelControl9.Appearance.Options.UseFont = true;
             this.labelControl9.Appearance.Options.UseForeColor = true;
             this.labelControl9.Enabled = false;
-            this.labelControl9.Location = new System.Drawing.Point(99, 83);
+            this.labelControl9.Location = new System.Drawing.Point(103, 102);
+            this.labelControl9.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl9.Name = "labelControl9";
-            this.labelControl9.Size = new System.Drawing.Size(60, 45);
+            this.labelControl9.Size = new System.Drawing.Size(75, 56);
             this.labelControl9.TabIndex = 1;
             this.labelControl9.Text = "655";
             // 
@@ -292,9 +306,10 @@
             this.labelControl10.Appearance.Options.UseFont = true;
             this.labelControl10.Appearance.Options.UseForeColor = true;
             this.labelControl10.Enabled = false;
-            this.labelControl10.Location = new System.Drawing.Point(57, 39);
+            this.labelControl10.Location = new System.Drawing.Point(76, 48);
+            this.labelControl10.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl10.Name = "labelControl10";
-            this.labelControl10.Size = new System.Drawing.Size(145, 38);
+            this.labelControl10.Size = new System.Drawing.Size(178, 48);
             this.labelControl10.TabIndex = 0;
             this.labelControl10.Text = "The Most Stocked \r\n        Product";
             // 
@@ -304,9 +319,10 @@
             this.panel6.Controls.Add(this.labelControl11);
             this.panel6.Controls.Add(this.labelControl12);
             this.panel6.Enabled = false;
-            this.panel6.Location = new System.Drawing.Point(280, 168);
+            this.panel6.Location = new System.Drawing.Point(373, 207);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(262, 150);
+            this.panel6.Size = new System.Drawing.Size(349, 185);
             this.panel6.TabIndex = 6;
             // 
             // labelControl11
@@ -316,9 +332,10 @@
             this.labelControl11.Appearance.Options.UseFont = true;
             this.labelControl11.Appearance.Options.UseForeColor = true;
             this.labelControl11.Enabled = false;
-            this.labelControl11.Location = new System.Drawing.Point(95, 83);
+            this.labelControl11.Location = new System.Drawing.Point(77, 102);
+            this.labelControl11.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl11.Name = "labelControl11";
-            this.labelControl11.Size = new System.Drawing.Size(60, 45);
+            this.labelControl11.Size = new System.Drawing.Size(75, 56);
             this.labelControl11.TabIndex = 1;
             this.labelControl11.Text = "655";
             // 
@@ -329,9 +346,10 @@
             this.labelControl12.Appearance.Options.UseFont = true;
             this.labelControl12.Appearance.Options.UseForeColor = true;
             this.labelControl12.Enabled = false;
-            this.labelControl12.Location = new System.Drawing.Point(58, 39);
+            this.labelControl12.Location = new System.Drawing.Point(77, 48);
+            this.labelControl12.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl12.Name = "labelControl12";
-            this.labelControl12.Size = new System.Drawing.Size(150, 38);
+            this.labelControl12.Size = new System.Drawing.Size(183, 48);
             this.labelControl12.TabIndex = 0;
             this.labelControl12.Text = "The Least Stocked \r\n        Product";
             // 
@@ -341,9 +359,10 @@
             this.panel7.Controls.Add(this.labelControl13);
             this.panel7.Controls.Add(this.labelControl14);
             this.panel7.Enabled = false;
-            this.panel7.Location = new System.Drawing.Point(548, 168);
+            this.panel7.Location = new System.Drawing.Point(731, 207);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(262, 150);
+            this.panel7.Size = new System.Drawing.Size(349, 185);
             this.panel7.TabIndex = 7;
             // 
             // labelControl13
@@ -353,9 +372,10 @@
             this.labelControl13.Appearance.Options.UseFont = true;
             this.labelControl13.Appearance.Options.UseForeColor = true;
             this.labelControl13.Enabled = false;
-            this.labelControl13.Location = new System.Drawing.Point(99, 83);
+            this.labelControl13.Location = new System.Drawing.Point(41, 102);
+            this.labelControl13.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl13.Name = "labelControl13";
-            this.labelControl13.Size = new System.Drawing.Size(60, 45);
+            this.labelControl13.Size = new System.Drawing.Size(75, 56);
             this.labelControl13.TabIndex = 1;
             this.labelControl13.Text = "655";
             // 
@@ -366,9 +386,10 @@
             this.labelControl14.Appearance.Options.UseFont = true;
             this.labelControl14.Appearance.Options.UseForeColor = true;
             this.labelControl14.Enabled = false;
-            this.labelControl14.Location = new System.Drawing.Point(42, 39);
+            this.labelControl14.Location = new System.Drawing.Point(56, 48);
+            this.labelControl14.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl14.Name = "labelControl14";
-            this.labelControl14.Size = new System.Drawing.Size(188, 38);
+            this.labelControl14.Size = new System.Drawing.Size(228, 48);
             this.labelControl14.TabIndex = 0;
             this.labelControl14.Text = "The Category That Has \r\n    the Most Products";
             // 
@@ -378,9 +399,10 @@
             this.panel8.Controls.Add(this.labelControl18);
             this.panel8.Controls.Add(this.labelControl15);
             this.panel8.Enabled = false;
-            this.panel8.Location = new System.Drawing.Point(816, 168);
+            this.panel8.Location = new System.Drawing.Point(1088, 207);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(262, 150);
+            this.panel8.Size = new System.Drawing.Size(349, 185);
             this.panel8.TabIndex = 8;
             // 
             // labelControl18
@@ -390,9 +412,10 @@
             this.labelControl18.Appearance.Options.UseFont = true;
             this.labelControl18.Appearance.Options.UseForeColor = true;
             this.labelControl18.Enabled = false;
-            this.labelControl18.Location = new System.Drawing.Point(49, 39);
+            this.labelControl18.Location = new System.Drawing.Point(65, 48);
+            this.labelControl18.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl18.Name = "labelControl18";
-            this.labelControl18.Size = new System.Drawing.Size(174, 38);
+            this.labelControl18.Size = new System.Drawing.Size(215, 48);
             this.labelControl18.TabIndex = 2;
             this.labelControl18.Text = "The Product With the\r\n   Highest Sale Price";
             // 
@@ -403,9 +426,10 @@
             this.labelControl15.Appearance.Options.UseFont = true;
             this.labelControl15.Appearance.Options.UseForeColor = true;
             this.labelControl15.Enabled = false;
-            this.labelControl15.Location = new System.Drawing.Point(54, 83);
+            this.labelControl15.Location = new System.Drawing.Point(89, 102);
+            this.labelControl15.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl15.Name = "labelControl15";
-            this.labelControl15.Size = new System.Drawing.Size(158, 45);
+            this.labelControl15.Size = new System.Drawing.Size(197, 56);
             this.labelControl15.TabIndex = 1;
             this.labelControl15.Text = "RTX 4080";
             // 
@@ -416,9 +440,10 @@
             this.labelControl16.Appearance.Options.UseFont = true;
             this.labelControl16.Appearance.Options.UseForeColor = true;
             this.labelControl16.Enabled = false;
-            this.labelControl16.Location = new System.Drawing.Point(54, 21);
+            this.labelControl16.Location = new System.Drawing.Point(95, 25);
+            this.labelControl16.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl16.Name = "labelControl16";
-            this.labelControl16.Size = new System.Drawing.Size(145, 38);
+            this.labelControl16.Size = new System.Drawing.Size(180, 48);
             this.labelControl16.TabIndex = 0;
             this.labelControl16.Text = "Count of Products\r\n      Sold Today";
             // 
@@ -428,9 +453,10 @@
             this.panel9.Controls.Add(this.labelControl17);
             this.panel9.Controls.Add(this.labelControl16);
             this.panel9.Enabled = false;
-            this.panel9.Location = new System.Drawing.Point(1084, 12);
+            this.panel9.Location = new System.Drawing.Point(1445, 15);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(262, 150);
+            this.panel9.Size = new System.Drawing.Size(349, 185);
             this.panel9.TabIndex = 5;
             // 
             // labelControl17
@@ -440,11 +466,12 @@
             this.labelControl17.Appearance.Options.UseFont = true;
             this.labelControl17.Appearance.Options.UseForeColor = true;
             this.labelControl17.Enabled = false;
-            this.labelControl17.Location = new System.Drawing.Point(91, 65);
+            this.labelControl17.Location = new System.Drawing.Point(146, 82);
+            this.labelControl17.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl17.Name = "labelControl17";
-            this.labelControl17.Size = new System.Drawing.Size(60, 45);
+            this.labelControl17.Size = new System.Drawing.Size(50, 56);
             this.labelControl17.TabIndex = 1;
-            this.labelControl17.Text = "655";
+            this.labelControl17.Text = "23";
             // 
             // panel10
             // 
@@ -452,9 +479,10 @@
             this.panel10.Controls.Add(this.labelControl19);
             this.panel10.Controls.Add(this.labelControl20);
             this.panel10.Enabled = false;
-            this.panel10.Location = new System.Drawing.Point(12, 324);
+            this.panel10.Location = new System.Drawing.Point(16, 399);
+            this.panel10.Margin = new System.Windows.Forms.Padding(4);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(262, 150);
+            this.panel10.Size = new System.Drawing.Size(349, 185);
             this.panel10.TabIndex = 6;
             // 
             // labelControl19
@@ -464,9 +492,10 @@
             this.labelControl19.Appearance.Options.UseFont = true;
             this.labelControl19.Appearance.Options.UseForeColor = true;
             this.labelControl19.Enabled = false;
-            this.labelControl19.Location = new System.Drawing.Point(99, 69);
+            this.labelControl19.Location = new System.Drawing.Point(132, 85);
+            this.labelControl19.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl19.Name = "labelControl19";
-            this.labelControl19.Size = new System.Drawing.Size(60, 45);
+            this.labelControl19.Size = new System.Drawing.Size(75, 56);
             this.labelControl19.TabIndex = 1;
             this.labelControl19.Text = "655";
             // 
@@ -477,9 +506,10 @@
             this.labelControl20.Appearance.Options.UseFont = true;
             this.labelControl20.Appearance.Options.UseForeColor = true;
             this.labelControl20.Enabled = false;
-            this.labelControl20.Location = new System.Drawing.Point(63, 31);
+            this.labelControl20.Location = new System.Drawing.Point(84, 38);
+            this.labelControl20.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl20.Name = "labelControl20";
-            this.labelControl20.Size = new System.Drawing.Size(134, 38);
+            this.labelControl20.Size = new System.Drawing.Size(164, 48);
             this.labelControl20.TabIndex = 0;
             this.labelControl20.Text = "Total Number of \r\n        Brands";
             // 
@@ -489,9 +519,10 @@
             this.panel11.Controls.Add(this.labelControl21);
             this.panel11.Controls.Add(this.labelControl22);
             this.panel11.Enabled = false;
-            this.panel11.Location = new System.Drawing.Point(12, 480);
+            this.panel11.Location = new System.Drawing.Point(16, 591);
+            this.panel11.Margin = new System.Windows.Forms.Padding(4);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(262, 150);
+            this.panel11.Size = new System.Drawing.Size(349, 185);
             this.panel11.TabIndex = 6;
             // 
             // labelControl21
@@ -501,9 +532,10 @@
             this.labelControl21.Appearance.Options.UseFont = true;
             this.labelControl21.Appearance.Options.UseForeColor = true;
             this.labelControl21.Enabled = false;
-            this.labelControl21.Location = new System.Drawing.Point(99, 71);
+            this.labelControl21.Location = new System.Drawing.Point(132, 87);
+            this.labelControl21.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl21.Name = "labelControl21";
-            this.labelControl21.Size = new System.Drawing.Size(60, 45);
+            this.labelControl21.Size = new System.Drawing.Size(75, 56);
             this.labelControl21.TabIndex = 1;
             this.labelControl21.Text = "655";
             // 
@@ -514,9 +546,10 @@
             this.labelControl22.Appearance.Options.UseFont = true;
             this.labelControl22.Appearance.Options.UseForeColor = true;
             this.labelControl22.Enabled = false;
-            this.labelControl22.Location = new System.Drawing.Point(57, 31);
+            this.labelControl22.Location = new System.Drawing.Point(76, 38);
+            this.labelControl22.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl22.Name = "labelControl22";
-            this.labelControl22.Size = new System.Drawing.Size(150, 38);
+            this.labelControl22.Size = new System.Drawing.Size(187, 48);
             this.labelControl22.TabIndex = 0;
             this.labelControl22.Text = "Total Number of \r\nRepaired Products";
             // 
@@ -526,9 +559,10 @@
             this.panel12.Controls.Add(this.labelControl23);
             this.panel12.Controls.Add(this.labelControl24);
             this.panel12.Enabled = false;
-            this.panel12.Location = new System.Drawing.Point(1084, 168);
+            this.panel12.Location = new System.Drawing.Point(1445, 207);
+            this.panel12.Margin = new System.Windows.Forms.Padding(4);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(262, 150);
+            this.panel12.Size = new System.Drawing.Size(349, 185);
             this.panel12.TabIndex = 6;
             // 
             // labelControl23
@@ -538,9 +572,10 @@
             this.labelControl23.Appearance.Options.UseFont = true;
             this.labelControl23.Appearance.Options.UseForeColor = true;
             this.labelControl23.Enabled = false;
-            this.labelControl23.Location = new System.Drawing.Point(81, 83);
+            this.labelControl23.Location = new System.Drawing.Point(108, 102);
+            this.labelControl23.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl23.Name = "labelControl23";
-            this.labelControl23.Size = new System.Drawing.Size(102, 45);
+            this.labelControl23.Size = new System.Drawing.Size(127, 56);
             this.labelControl23.TabIndex = 1;
             this.labelControl23.Text = "Spoon";
             // 
@@ -551,9 +586,10 @@
             this.labelControl24.Appearance.Options.UseFont = true;
             this.labelControl24.Appearance.Options.UseForeColor = true;
             this.labelControl24.Enabled = false;
-            this.labelControl24.Location = new System.Drawing.Point(45, 39);
+            this.labelControl24.Location = new System.Drawing.Point(60, 48);
+            this.labelControl24.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl24.Name = "labelControl24";
-            this.labelControl24.Size = new System.Drawing.Size(174, 38);
+            this.labelControl24.Size = new System.Drawing.Size(215, 48);
             this.labelControl24.TabIndex = 0;
             this.labelControl24.Text = "The Product With the \r\n    Lowest Sale Price";
             // 
@@ -563,9 +599,10 @@
             this.panel13.Controls.Add(this.labelControl25);
             this.panel13.Controls.Add(this.labelControl26);
             this.panel13.Enabled = false;
-            this.panel13.Location = new System.Drawing.Point(1084, 480);
+            this.panel13.Location = new System.Drawing.Point(1445, 591);
+            this.panel13.Margin = new System.Windows.Forms.Padding(4);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(262, 150);
+            this.panel13.Size = new System.Drawing.Size(349, 185);
             this.panel13.TabIndex = 13;
             // 
             // labelControl25
@@ -575,9 +612,10 @@
             this.labelControl25.Appearance.Options.UseFont = true;
             this.labelControl25.Appearance.Options.UseForeColor = true;
             this.labelControl25.Enabled = false;
-            this.labelControl25.Location = new System.Drawing.Point(91, 71);
+            this.labelControl25.Location = new System.Drawing.Point(121, 87);
+            this.labelControl25.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl25.Name = "labelControl25";
-            this.labelControl25.Size = new System.Drawing.Size(60, 45);
+            this.labelControl25.Size = new System.Drawing.Size(75, 56);
             this.labelControl25.TabIndex = 1;
             this.labelControl25.Text = "655";
             // 
@@ -588,9 +626,10 @@
             this.labelControl26.Appearance.Options.UseFont = true;
             this.labelControl26.Appearance.Options.UseForeColor = true;
             this.labelControl26.Enabled = false;
-            this.labelControl26.Location = new System.Drawing.Point(54, 31);
+            this.labelControl26.Location = new System.Drawing.Point(72, 38);
+            this.labelControl26.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl26.Name = "labelControl26";
-            this.labelControl26.Size = new System.Drawing.Size(159, 38);
+            this.labelControl26.Size = new System.Drawing.Size(198, 48);
             this.labelControl26.TabIndex = 0;
             this.labelControl26.Text = "Number of Home \r\nAppliences in Stock";
             // 
@@ -600,9 +639,10 @@
             this.panel14.Controls.Add(this.labelControl27);
             this.panel14.Controls.Add(this.labelControl28);
             this.panel14.Enabled = false;
-            this.panel14.Location = new System.Drawing.Point(1084, 324);
+            this.panel14.Location = new System.Drawing.Point(1445, 399);
+            this.panel14.Margin = new System.Windows.Forms.Padding(4);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(262, 150);
+            this.panel14.Size = new System.Drawing.Size(349, 185);
             this.panel14.TabIndex = 12;
             // 
             // labelControl27
@@ -612,9 +652,10 @@
             this.labelControl27.Appearance.Options.UseFont = true;
             this.labelControl27.Appearance.Options.UseForeColor = true;
             this.labelControl27.Enabled = false;
-            this.labelControl27.Location = new System.Drawing.Point(91, 71);
+            this.labelControl27.Location = new System.Drawing.Point(72, 94);
+            this.labelControl27.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl27.Name = "labelControl27";
-            this.labelControl27.Size = new System.Drawing.Size(60, 45);
+            this.labelControl27.Size = new System.Drawing.Size(75, 56);
             this.labelControl27.TabIndex = 1;
             this.labelControl27.Text = "655";
             // 
@@ -625,11 +666,12 @@
             this.labelControl28.Appearance.Options.UseFont = true;
             this.labelControl28.Appearance.Options.UseForeColor = true;
             this.labelControl28.Enabled = false;
-            this.labelControl28.Location = new System.Drawing.Point(26, 31);
+            this.labelControl28.Location = new System.Drawing.Point(88, 38);
+            this.labelControl28.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl28.Name = "labelControl28";
-            this.labelControl28.Size = new System.Drawing.Size(215, 38);
+            this.labelControl28.Size = new System.Drawing.Size(182, 48);
             this.labelControl28.TabIndex = 0;
-            this.labelControl28.Text = "Total Number of Defective \r\nProducts Delivered Today\r\n";
+            this.labelControl28.Text = "  Staff With The \r\nMost Transactions";
             // 
             // panel15
             // 
@@ -637,9 +679,10 @@
             this.panel15.Controls.Add(this.labelControl29);
             this.panel15.Controls.Add(this.labelControl30);
             this.panel15.Enabled = false;
-            this.panel15.Location = new System.Drawing.Point(816, 324);
+            this.panel15.Location = new System.Drawing.Point(1088, 399);
+            this.panel15.Margin = new System.Windows.Forms.Padding(4);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(262, 150);
+            this.panel15.Size = new System.Drawing.Size(349, 185);
             this.panel15.TabIndex = 10;
             // 
             // labelControl29
@@ -649,9 +692,10 @@
             this.labelControl29.Appearance.Options.UseFont = true;
             this.labelControl29.Appearance.Options.UseForeColor = true;
             this.labelControl29.Enabled = false;
-            this.labelControl29.Location = new System.Drawing.Point(100, 71);
+            this.labelControl29.Location = new System.Drawing.Point(131, 87);
+            this.labelControl29.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl29.Name = "labelControl29";
-            this.labelControl29.Size = new System.Drawing.Size(60, 45);
+            this.labelControl29.Size = new System.Drawing.Size(75, 56);
             this.labelControl29.TabIndex = 1;
             this.labelControl29.Text = "655";
             // 
@@ -662,11 +706,12 @@
             this.labelControl30.Appearance.Options.UseFont = true;
             this.labelControl30.Appearance.Options.UseForeColor = true;
             this.labelControl30.Enabled = false;
-            this.labelControl30.Location = new System.Drawing.Point(62, 31);
+            this.labelControl30.Location = new System.Drawing.Point(101, 31);
+            this.labelControl30.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl30.Name = "labelControl30";
-            this.labelControl30.Size = new System.Drawing.Size(150, 38);
+            this.labelControl30.Size = new System.Drawing.Size(137, 48);
             this.labelControl30.TabIndex = 0;
-            this.labelControl30.Text = "Total Number of \r\nProducts in Repair";
+            this.labelControl30.Text = "Total Number \r\n     of Staff";
             // 
             // panel16
             // 
@@ -674,9 +719,10 @@
             this.panel16.Controls.Add(this.labelControl31);
             this.panel16.Controls.Add(this.labelControl32);
             this.panel16.Enabled = false;
-            this.panel16.Location = new System.Drawing.Point(280, 480);
+            this.panel16.Location = new System.Drawing.Point(373, 591);
+            this.panel16.Margin = new System.Windows.Forms.Padding(4);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(262, 150);
+            this.panel16.Size = new System.Drawing.Size(349, 185);
             this.panel16.TabIndex = 14;
             // 
             // labelControl31
@@ -686,9 +732,10 @@
             this.labelControl31.Appearance.Options.UseFont = true;
             this.labelControl31.Appearance.Options.UseForeColor = true;
             this.labelControl31.Enabled = false;
-            this.labelControl31.Location = new System.Drawing.Point(95, 71);
+            this.labelControl31.Location = new System.Drawing.Point(127, 87);
+            this.labelControl31.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl31.Name = "labelControl31";
-            this.labelControl31.Size = new System.Drawing.Size(60, 45);
+            this.labelControl31.Size = new System.Drawing.Size(75, 56);
             this.labelControl31.TabIndex = 1;
             this.labelControl31.Text = "655";
             // 
@@ -699,11 +746,12 @@
             this.labelControl32.Appearance.Options.UseFont = true;
             this.labelControl32.Appearance.Options.UseForeColor = true;
             this.labelControl32.Enabled = false;
-            this.labelControl32.Location = new System.Drawing.Point(58, 30);
+            this.labelControl32.Location = new System.Drawing.Point(86, 37);
+            this.labelControl32.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl32.Name = "labelControl32";
-            this.labelControl32.Size = new System.Drawing.Size(144, 38);
+            this.labelControl32.Size = new System.Drawing.Size(164, 48);
             this.labelControl32.TabIndex = 0;
-            this.labelControl32.Text = "Total Number of \r\nProducts in Cargo";
+            this.labelControl32.Text = "Total Number of \r\n   Toys in Stock";
             // 
             // panel17
             // 
@@ -711,9 +759,10 @@
             this.panel17.Controls.Add(this.labelControl33);
             this.panel17.Controls.Add(this.labelControl34);
             this.panel17.Enabled = false;
-            this.panel17.Location = new System.Drawing.Point(548, 324);
+            this.panel17.Location = new System.Drawing.Point(731, 399);
+            this.panel17.Margin = new System.Windows.Forms.Padding(4);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(262, 150);
+            this.panel17.Size = new System.Drawing.Size(349, 185);
             this.panel17.TabIndex = 11;
             // 
             // labelControl33
@@ -723,9 +772,10 @@
             this.labelControl33.Appearance.Options.UseFont = true;
             this.labelControl33.Appearance.Options.UseForeColor = true;
             this.labelControl33.Enabled = false;
-            this.labelControl33.Location = new System.Drawing.Point(99, 71);
+            this.labelControl33.Location = new System.Drawing.Point(132, 87);
+            this.labelControl33.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl33.Name = "labelControl33";
-            this.labelControl33.Size = new System.Drawing.Size(60, 45);
+            this.labelControl33.Size = new System.Drawing.Size(75, 56);
             this.labelControl33.TabIndex = 1;
             this.labelControl33.Text = "655";
             // 
@@ -736,9 +786,10 @@
             this.labelControl34.Appearance.Options.UseFont = true;
             this.labelControl34.Appearance.Options.UseForeColor = true;
             this.labelControl34.Enabled = false;
-            this.labelControl34.Location = new System.Drawing.Point(55, 31);
+            this.labelControl34.Location = new System.Drawing.Point(73, 38);
+            this.labelControl34.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl34.Name = "labelControl34";
-            this.labelControl34.Size = new System.Drawing.Size(153, 38);
+            this.labelControl34.Size = new System.Drawing.Size(191, 48);
             this.labelControl34.TabIndex = 0;
             this.labelControl34.Text = "  Total Number of \r\nDefective Products";
             // 
@@ -748,9 +799,10 @@
             this.panel18.Controls.Add(this.labelControl35);
             this.panel18.Controls.Add(this.labelControl36);
             this.panel18.Enabled = false;
-            this.panel18.Location = new System.Drawing.Point(548, 480);
+            this.panel18.Location = new System.Drawing.Point(731, 591);
+            this.panel18.Margin = new System.Windows.Forms.Padding(4);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(262, 150);
+            this.panel18.Size = new System.Drawing.Size(349, 185);
             this.panel18.TabIndex = 15;
             // 
             // labelControl35
@@ -760,9 +812,10 @@
             this.labelControl35.Appearance.Options.UseFont = true;
             this.labelControl35.Appearance.Options.UseForeColor = true;
             this.labelControl35.Enabled = false;
-            this.labelControl35.Location = new System.Drawing.Point(99, 71);
+            this.labelControl35.Location = new System.Drawing.Point(132, 87);
+            this.labelControl35.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl35.Name = "labelControl35";
-            this.labelControl35.Size = new System.Drawing.Size(60, 45);
+            this.labelControl35.Size = new System.Drawing.Size(75, 56);
             this.labelControl35.TabIndex = 1;
             this.labelControl35.Text = "655";
             // 
@@ -773,9 +826,10 @@
             this.labelControl36.Appearance.Options.UseFont = true;
             this.labelControl36.Appearance.Options.UseForeColor = true;
             this.labelControl36.Enabled = false;
-            this.labelControl36.Location = new System.Drawing.Point(49, 31);
+            this.labelControl36.Location = new System.Drawing.Point(65, 38);
+            this.labelControl36.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl36.Name = "labelControl36";
-            this.labelControl36.Size = new System.Drawing.Size(159, 38);
+            this.labelControl36.Size = new System.Drawing.Size(198, 48);
             this.labelControl36.TabIndex = 0;
             this.labelControl36.Text = "  Total Number of \r\nElectronics in Stock";
             // 
@@ -785,9 +839,10 @@
             this.panel19.Controls.Add(this.labelControl37);
             this.panel19.Controls.Add(this.labelControl38);
             this.panel19.Enabled = false;
-            this.panel19.Location = new System.Drawing.Point(280, 324);
+            this.panel19.Location = new System.Drawing.Point(373, 399);
+            this.panel19.Margin = new System.Windows.Forms.Padding(4);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(262, 150);
+            this.panel19.Size = new System.Drawing.Size(349, 185);
             this.panel19.TabIndex = 9;
             // 
             // labelControl37
@@ -797,9 +852,10 @@
             this.labelControl37.Appearance.Options.UseFont = true;
             this.labelControl37.Appearance.Options.UseForeColor = true;
             this.labelControl37.Enabled = false;
-            this.labelControl37.Location = new System.Drawing.Point(95, 71);
+            this.labelControl37.Location = new System.Drawing.Point(127, 87);
+            this.labelControl37.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl37.Name = "labelControl37";
-            this.labelControl37.Size = new System.Drawing.Size(60, 45);
+            this.labelControl37.Size = new System.Drawing.Size(75, 56);
             this.labelControl37.TabIndex = 1;
             this.labelControl37.Text = "655";
             // 
@@ -810,9 +866,10 @@
             this.labelControl38.Appearance.Options.UseFont = true;
             this.labelControl38.Appearance.Options.UseForeColor = true;
             this.labelControl38.Enabled = false;
-            this.labelControl38.Location = new System.Drawing.Point(58, 31);
+            this.labelControl38.Location = new System.Drawing.Point(77, 38);
+            this.labelControl38.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl38.Name = "labelControl38";
-            this.labelControl38.Size = new System.Drawing.Size(162, 38);
+            this.labelControl38.Size = new System.Drawing.Size(198, 48);
             this.labelControl38.TabIndex = 0;
             this.labelControl38.Text = "The Brand That Has \r\n the Most Products";
             // 
@@ -822,9 +879,10 @@
             this.panel20.Controls.Add(this.labelControl39);
             this.panel20.Controls.Add(this.labelControl40);
             this.panel20.Enabled = false;
-            this.panel20.Location = new System.Drawing.Point(816, 480);
+            this.panel20.Location = new System.Drawing.Point(1088, 591);
+            this.panel20.Margin = new System.Windows.Forms.Padding(4);
             this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(262, 150);
+            this.panel20.Size = new System.Drawing.Size(349, 185);
             this.panel20.TabIndex = 16;
             // 
             // labelControl39
@@ -834,9 +892,10 @@
             this.labelControl39.Appearance.Options.UseFont = true;
             this.labelControl39.Appearance.Options.UseForeColor = true;
             this.labelControl39.Enabled = false;
-            this.labelControl39.Location = new System.Drawing.Point(91, 71);
+            this.labelControl39.Location = new System.Drawing.Point(121, 87);
+            this.labelControl39.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl39.Name = "labelControl39";
-            this.labelControl39.Size = new System.Drawing.Size(60, 45);
+            this.labelControl39.Size = new System.Drawing.Size(75, 56);
             this.labelControl39.TabIndex = 1;
             this.labelControl39.Text = "655";
             // 
@@ -847,17 +906,18 @@
             this.labelControl40.Appearance.Options.UseFont = true;
             this.labelControl40.Appearance.Options.UseForeColor = true;
             this.labelControl40.Enabled = false;
-            this.labelControl40.Location = new System.Drawing.Point(61, 30);
+            this.labelControl40.Location = new System.Drawing.Point(81, 37);
+            this.labelControl40.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl40.Name = "labelControl40";
-            this.labelControl40.Size = new System.Drawing.Size(146, 38);
+            this.labelControl40.Size = new System.Drawing.Size(183, 48);
             this.labelControl40.TabIndex = 0;
             this.labelControl40.Text = "Total Number of\r\nFurniture in Stock";
             // 
             // FormProductStatistics
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1350, 634);
+            this.ClientSize = new System.Drawing.Size(1800, 780);
             this.Controls.Add(this.panel13);
             this.Controls.Add(this.panel12);
             this.Controls.Add(this.panel14);
@@ -878,6 +938,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormProductStatistics";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormStatistic";

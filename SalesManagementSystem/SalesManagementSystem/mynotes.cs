@@ -18,5 +18,6 @@ namespace SalesManagementSystem
         public string title { get; set; }
         public string content { get; set; }
         public Nullable<bool> status { get; set; }
+        public Nullable<System.DateTime> date { get; set; }
     }
 }

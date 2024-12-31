@@ -1,13 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="SalesTrackingSystemModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-  <EntityType Name="admintable">
-    <Key>
-      <PropertyRef Name="adminid" />
-    </Key>
-    <Property Name="adminid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="name" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="password" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
-  </EntityType>
   <EntityType Name="category">
     <Key>
       <PropertyRef Name="categoryid" />
@@ -67,7 +59,7 @@
       <PropertyRef Name="faultid" />
     </Key>
     <Property Name="faultid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="processid" Type="Int32" Nullable="false" />
+    <Property Name="processid" Nullable="false" Type="Int32" />
     <Property Name="issue" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="initialprice" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
@@ -110,6 +102,7 @@
     <Property Name="title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="content" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="status" Type="Boolean" />
+    <Property Name="date" Type="DateTime" Precision="0" />
   </EntityType>
   <EntityType Name="product">
     <Key>
@@ -124,30 +117,30 @@
     <Property Name="categoryid" Type="Int32" Nullable="false" />
     <Property Name="status" Type="Boolean" />
     <NavigationProperty Name="category" Relationship="Self.product_categoryid_fkey" FromRole="product" ToRole="category" />
-    <NavigationProperty Name="productacceptance" Relationship="Self.productacceptance_productid_fkey" FromRole="product" ToRole="productacceptance" />
     <NavigationProperty Name="productmovement" Relationship="Self.productmovement_productid_fkey" FromRole="product" ToRole="productmovement" />
-    <NavigationProperty Name="producttracking" Relationship="Self.producttracking_productid_fkey" FromRole="product" ToRole="producttracking" />
+    <NavigationProperty Name="productmovement1" Relationship="SalesTrackingSystemModel.productmovement_productid_fkey1" FromRole="product" ToRole="productmovement" />
   </EntityType>
   <EntityType Name="productacceptance">
     <Key>
       <PropertyRef Name="acceptanceid" />
     </Key>
     <Property Name="acceptanceid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="productid" Type="Int32" Nullable="false" />
     <Property Name="customerid" Type="Int32" Nullable="false" />
     <Property Name="staffid" Type="Int32" Nullable="false" />
     <Property Name="arrivaldate" Type="DateTime" Precision="0" Nullable="false" />
     <Property Name="departuredate" Type="DateTime" Precision="0" Nullable="false" />
     <NavigationProperty Name="customer" Relationship="Self.productacceptance_customerid_fkey" FromRole="productacceptance" ToRole="customer" />
-    <NavigationProperty Name="product" Relationship="Self.productacceptance_productid_fkey" FromRole="productacceptance" ToRole="product" />
     <NavigationProperty Name="staff" Relationship="Self.productacceptance_staffid_fkey" FromRole="productacceptance" ToRole="staff" />
+    <Property Name="productserialno" MaxLength="5" FixedLength="true" Unicode="true" Type="String" Nullable="false" />
+    <Property Name="productstatus" Type="Boolean" Nullable="false" />
+    <Property Name="productstatusdetail" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
   </EntityType>
   <EntityType Name="productmovement">
     <Key>
       <PropertyRef Name="movementid" />
     </Key>
     <Property Name="movementid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="productid" Type="Int32" Nullable="false" />
+    <Property Name="productid" Nullable="false" Type="Int32" />
     <Property Name="customerid" Type="Int32" Nullable="false" />
     <Property Name="staffid" Type="Int32" Nullable="false" />
     <Property Name="movementdate" Type="DateTime" Precision="0" Nullable="false" />
@@ -156,17 +149,18 @@
     <NavigationProperty Name="customer" Relationship="Self.productmovement_customerid_fkey" FromRole="productmovement" ToRole="customer" />
     <NavigationProperty Name="product" Relationship="Self.productmovement_productid_fkey" FromRole="productmovement" ToRole="product" />
     <NavigationProperty Name="staff" Relationship="Self.productmovement_staffid_fkey" FromRole="productmovement" ToRole="staff" />
+    <Property Name="productserialno" MaxLength="5" FixedLength="true" Unicode="true" Type="String" Nullable="false" />
+    <NavigationProperty Name="product1" Relationship="SalesTrackingSystemModel.productmovement_productid_fkey1" FromRole="productmovement" ToRole="product" />
   </EntityType>
   <EntityType Name="producttracking">
     <Key>
       <PropertyRef Name="trackingid" />
     </Key>
     <Property Name="trackingid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="productid" Type="Int32" Nullable="false" />
     <Property Name="status" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="trackingdate" Type="DateTime" Precision="0" Nullable="false" />
-    <Property Name="trackingcode" Type="String" MaxLength="5" FixedLength="true" Unicode="true" Nullable="false" />
-    <NavigationProperty Name="product" Relationship="Self.producttracking_productid_fkey" FromRole="producttracking" ToRole="product" />
+    <Property Name="serialno" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="comment" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
   </EntityType>
   <EntityType Name="staff">
     <Key>
@@ -280,18 +274,6 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="productacceptance_productid_fkey">
-    <End Role="product" Type="Self.product" Multiplicity="1" />
-    <End Role="productacceptance" Type="Self.productacceptance" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="product">
-        <PropertyRef Name="productid" />
-      </Principal>
-      <Dependent Role="productacceptance">
-        <PropertyRef Name="productid" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
   <Association Name="productmovement_productid_fkey">
     <End Role="product" Type="Self.product" Multiplicity="1" />
     <End Role="productmovement" Type="Self.productmovement" Multiplicity="*" />
@@ -300,18 +282,6 @@
         <PropertyRef Name="productid" />
       </Principal>
       <Dependent Role="productmovement">
-        <PropertyRef Name="productid" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="producttracking_productid_fkey">
-    <End Role="product" Type="Self.product" Multiplicity="1" />
-    <End Role="producttracking" Type="Self.producttracking" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="product">
-        <PropertyRef Name="productid" />
-      </Principal>
-      <Dependent Role="producttracking">
         <PropertyRef Name="productid" />
       </Dependent>
     </ReferentialConstraint>
@@ -341,7 +311,6 @@
     </ReferentialConstraint>
   </Association>
   <EntityContainer Name="SalesTrackingSystemEntities" annotation:LazyLoadingEnabled="true">
-    <EntitySet Name="admintable" EntityType="Self.admintable" />
     <EntitySet Name="category" EntityType="Self.category" />
     <EntitySet Name="city" EntityType="Self.city" />
     <EntitySet Name="customer" EntityType="Self.customer" />
@@ -388,17 +357,9 @@
       <End Role="staff" EntitySet="staff" />
       <End Role="invoiceinfo" EntitySet="invoiceinfo" />
     </AssociationSet>
-    <AssociationSet Name="productacceptance_productid_fkey" Association="Self.productacceptance_productid_fkey">
-      <End Role="product" EntitySet="product" />
-      <End Role="productacceptance" EntitySet="productacceptance" />
-    </AssociationSet>
     <AssociationSet Name="productmovement_productid_fkey" Association="Self.productmovement_productid_fkey">
       <End Role="product" EntitySet="product" />
       <End Role="productmovement" EntitySet="productmovement" />
-    </AssociationSet>
-    <AssociationSet Name="producttracking_productid_fkey" Association="Self.producttracking_productid_fkey">
-      <End Role="product" EntitySet="product" />
-      <End Role="producttracking" EntitySet="producttracking" />
     </AssociationSet>
     <AssociationSet Name="productacceptance_staffid_fkey" Association="Self.productacceptance_staffid_fkey">
       <End Role="staff" EntitySet="staff" />
@@ -408,5 +369,46 @@
       <End Role="staff" EntitySet="staff" />
       <End Role="productmovement" EntitySet="productmovement" />
     </AssociationSet>
+    <AssociationSet Name="productmovement_productid_fkey1" Association="SalesTrackingSystemModel.productmovement_productid_fkey1">
+      <End Role="product" EntitySet="product" />
+      <End Role="productmovement" EntitySet="productmovement" />
+    </AssociationSet>
+    <EntitySet Name="contact" EntityType="SalesTrackingSystemModel.contact" />
+    <EntitySet Name="users" EntityType="SalesTrackingSystemModel.users" />
   </EntityContainer>
+  <Association Name="productmovement_productid_fkey1">
+    <End Type="SalesTrackingSystemModel.product" Role="product" Multiplicity="1" />
+    <End Type="SalesTrackingSystemModel.productmovement" Role="productmovement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="product">
+        <PropertyRef Name="productid" />
+      </Principal>
+      <Dependent Role="productmovement">
+        <PropertyRef Name="productid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="contact">
+    <Key>
+      <PropertyRef Name="messageid" />
+      <PropertyRef Name="fullname" />
+      <PropertyRef Name="email" />
+      <PropertyRef Name="title" />
+      <PropertyRef Name="message" />
+    </Key>
+    <Property Name="messageid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="fullname" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" Nullable="false" MaxLength="75" FixedLength="false" Unicode="true" />
+    <Property Name="title" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="message" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="userid" />
+    </Key>
+    <Property Name="userid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="role" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+  </EntityType>
 </Schema>

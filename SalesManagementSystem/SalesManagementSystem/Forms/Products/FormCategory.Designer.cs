@@ -34,7 +34,6 @@
             this.btnList = new DevExpress.XtraEditors.SimpleButton();
             this.btnUpdate = new DevExpress.XtraEditors.SimpleButton();
             this.btnDelete = new DevExpress.XtraEditors.SimpleButton();
-            this.btnSave = new DevExpress.XtraEditors.SimpleButton();
             this.txtCategoryName = new DevExpress.XtraEditors.TextEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
@@ -69,7 +68,7 @@
             // btnList
             // 
             this.btnList.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnList.ImageOptions.SvgImage")));
-            this.btnList.Location = new System.Drawing.Point(143, 375);
+            this.btnList.Location = new System.Drawing.Point(143, 312);
             this.btnList.Name = "btnList";
             this.btnList.Size = new System.Drawing.Size(214, 40);
             this.btnList.TabIndex = 9;
@@ -79,7 +78,7 @@
             // btnUpdate
             // 
             this.btnUpdate.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnUpdate.ImageOptions.SvgImage")));
-            this.btnUpdate.Location = new System.Drawing.Point(143, 329);
+            this.btnUpdate.Location = new System.Drawing.Point(143, 266);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(214, 40);
             this.btnUpdate.TabIndex = 8;
@@ -89,22 +88,12 @@
             // btnDelete
             // 
             this.btnDelete.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnDelete.ImageOptions.SvgImage")));
-            this.btnDelete.Location = new System.Drawing.Point(143, 283);
+            this.btnDelete.Location = new System.Drawing.Point(143, 220);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(214, 40);
             this.btnDelete.TabIndex = 7;
             this.btnDelete.Text = "DELETE";
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
-            // 
-            // btnSave
-            // 
-            this.btnSave.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnSave.ImageOptions.SvgImage")));
-            this.btnSave.Location = new System.Drawing.Point(143, 237);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(214, 40);
-            this.btnSave.TabIndex = 6;
-            this.btnSave.Text = "SAVE";
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // txtCategoryName
             // 
@@ -130,7 +119,6 @@
             this.groupControl1.Controls.Add(this.btnList);
             this.groupControl1.Controls.Add(this.btnUpdate);
             this.groupControl1.Controls.Add(this.btnDelete);
-            this.groupControl1.Controls.Add(this.btnSave);
             this.groupControl1.Controls.Add(this.txtCategoryName);
             this.groupControl1.Controls.Add(this.labelControl1);
             this.groupControl1.Location = new System.Drawing.Point(886, 0);
@@ -186,7 +174,6 @@
         private DevExpress.XtraEditors.SimpleButton btnList;
         private DevExpress.XtraEditors.SimpleButton btnUpdate;
         private DevExpress.XtraEditors.SimpleButton btnDelete;
-        private DevExpress.XtraEditors.SimpleButton btnSave;
         private DevExpress.XtraEditors.TextEdit txtCategoryName;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.GroupControl groupControl1;

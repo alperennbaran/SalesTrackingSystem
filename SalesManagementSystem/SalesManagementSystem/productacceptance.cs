@@ -15,14 +15,15 @@ namespace SalesManagementSystem
     public partial class productacceptance
     {
         public int acceptanceid { get; set; }
-        public int productid { get; set; }
         public int customerid { get; set; }
         public int staffid { get; set; }
         public System.DateTime arrivaldate { get; set; }
         public System.DateTime departuredate { get; set; }
+        public string productserialno { get; set; }
+        public bool productstatus { get; set; }
+        public string productstatusdetail { get; set; }
     
         public virtual customer customer { get; set; }
-        public virtual product product { get; set; }
         public virtual staff staff { get; set; }
     }
 }

@@ -21,9 +21,11 @@ namespace SalesManagementSystem
         public System.DateTime movementdate { get; set; }
         public short quantity { get; set; }
         public decimal price { get; set; }
+        public string productserialno { get; set; }
     
         public virtual customer customer { get; set; }
         public virtual product product { get; set; }
         public virtual staff staff { get; set; }
+        public virtual product product1 { get; set; }
     }
 }

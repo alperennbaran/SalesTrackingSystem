@@ -35,12 +35,26 @@ namespace SalesManagementSystem.Forms.Staff
             labelControl12.Text = ExecuteScalarQuery(query);
 
             // The Department With the Most Staffs
-            //query = "";
-            //labelControl14.Text = ExecuteScalarQuery(query);
+            query = @"
+            SELECT d.name 
+            FROM Department d
+            JOIN Staff s ON d.departmentid = s.departmentid
+            GROUP BY d.name
+            ORDER BY COUNT(s.staffid) DESC
+            LIMIT 1;";
+            labelControl14.Text = ExecuteScalarQuery(query);
+
 
             // The Department With the Least Staffs
-            //query = "";
-            //labelControl16.Text = ExecuteScalarQuery(query);
+            query = @"
+            SELECT d.name
+            FROM Department d
+            JOIN Staff s ON d.departmentid = s.departmentid
+            GROUP BY d.name
+            ORDER BY COUNT(s.staffid) ASC
+            LIMIT 1;";
+            labelControl16.Text = ExecuteScalarQuery(query);
+
         }
         private void listDeparment()
         {

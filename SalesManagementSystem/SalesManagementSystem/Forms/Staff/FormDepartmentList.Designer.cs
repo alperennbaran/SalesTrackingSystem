@@ -73,9 +73,10 @@
             this.labelControl17.Appearance.Options.UseFont = true;
             this.labelControl17.Appearance.Options.UseForeColor = true;
             this.labelControl17.Enabled = false;
-            this.labelControl17.Location = new System.Drawing.Point(40, 31);
+            this.labelControl17.Location = new System.Drawing.Point(53, 38);
+            this.labelControl17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl17.Name = "labelControl17";
-            this.labelControl17.Size = new System.Drawing.Size(177, 38);
+            this.labelControl17.Size = new System.Drawing.Size(218, 48);
             this.labelControl17.TabIndex = 0;
             this.labelControl17.Text = "The Department With\r\n     the Least Staffs\r\n";
             // 
@@ -85,9 +86,10 @@
             this.panel4.Controls.Add(this.labelControl16);
             this.panel4.Controls.Add(this.labelControl17);
             this.panel4.Enabled = false;
-            this.panel4.Location = new System.Drawing.Point(747, 1);
+            this.panel4.Location = new System.Drawing.Point(996, 1);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(241, 150);
+            this.panel4.Size = new System.Drawing.Size(321, 185);
             this.panel4.TabIndex = 16;
             // 
             // labelControl16
@@ -97,9 +99,10 @@
             this.labelControl16.Appearance.Options.UseFont = true;
             this.labelControl16.Appearance.Options.UseForeColor = true;
             this.labelControl16.Enabled = false;
-            this.labelControl16.Location = new System.Drawing.Point(93, 72);
+            this.labelControl16.Location = new System.Drawing.Point(53, 99);
+            this.labelControl16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl16.Name = "labelControl16";
-            this.labelControl16.Size = new System.Drawing.Size(60, 45);
+            this.labelControl16.Size = new System.Drawing.Size(75, 56);
             this.labelControl16.TabIndex = 1;
             this.labelControl16.Text = "655";
             // 
@@ -110,9 +113,10 @@
             this.labelControl14.Appearance.Options.UseFont = true;
             this.labelControl14.Appearance.Options.UseForeColor = true;
             this.labelControl14.Enabled = false;
-            this.labelControl14.Location = new System.Drawing.Point(90, 72);
+            this.labelControl14.Location = new System.Drawing.Point(45, 99);
+            this.labelControl14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl14.Name = "labelControl14";
-            this.labelControl14.Size = new System.Drawing.Size(60, 45);
+            this.labelControl14.Size = new System.Drawing.Size(75, 56);
             this.labelControl14.TabIndex = 1;
             this.labelControl14.Text = "655";
             // 
@@ -123,9 +127,10 @@
             this.labelControl15.Appearance.Options.UseFont = true;
             this.labelControl15.Appearance.Options.UseForeColor = true;
             this.labelControl15.Enabled = false;
-            this.labelControl15.Location = new System.Drawing.Point(34, 31);
+            this.labelControl15.Location = new System.Drawing.Point(45, 38);
+            this.labelControl15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl15.Name = "labelControl15";
-            this.labelControl15.Size = new System.Drawing.Size(177, 38);
+            this.labelControl15.Size = new System.Drawing.Size(218, 48);
             this.labelControl15.TabIndex = 0;
             this.labelControl15.Text = "The Department With\r\n      the Most Staffs";
             // 
@@ -135,9 +140,10 @@
             this.panel3.Controls.Add(this.labelControl14);
             this.panel3.Controls.Add(this.labelControl15);
             this.panel3.Enabled = false;
-            this.panel3.Location = new System.Drawing.Point(500, 1);
+            this.panel3.Location = new System.Drawing.Point(667, 1);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(241, 150);
+            this.panel3.Size = new System.Drawing.Size(321, 185);
             this.panel3.TabIndex = 18;
             // 
             // labelControl12
@@ -147,9 +153,10 @@
             this.labelControl12.Appearance.Options.UseFont = true;
             this.labelControl12.Appearance.Options.UseForeColor = true;
             this.labelControl12.Enabled = false;
-            this.labelControl12.Location = new System.Drawing.Point(88, 72);
+            this.labelControl12.Location = new System.Drawing.Point(117, 89);
+            this.labelControl12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl12.Name = "labelControl12";
-            this.labelControl12.Size = new System.Drawing.Size(60, 45);
+            this.labelControl12.Size = new System.Drawing.Size(75, 56);
             this.labelControl12.TabIndex = 1;
             this.labelControl12.Text = "655";
             // 
@@ -160,9 +167,10 @@
             this.labelControl13.Appearance.Options.UseFont = true;
             this.labelControl13.Appearance.Options.UseForeColor = true;
             this.labelControl13.Enabled = false;
-            this.labelControl13.Location = new System.Drawing.Point(53, 36);
+            this.labelControl13.Location = new System.Drawing.Point(71, 44);
+            this.labelControl13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl13.Name = "labelControl13";
-            this.labelControl13.Size = new System.Drawing.Size(140, 19);
+            this.labelControl13.Size = new System.Drawing.Size(170, 24);
             this.labelControl13.TabIndex = 0;
             this.labelControl13.Text = "Total Staff Count";
             // 
@@ -172,9 +180,10 @@
             this.panel1.Controls.Add(this.labelControl12);
             this.panel1.Controls.Add(this.labelControl13);
             this.panel1.Enabled = false;
-            this.panel1.Location = new System.Drawing.Point(253, 1);
+            this.panel1.Location = new System.Drawing.Point(337, 1);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(241, 150);
+            this.panel1.Size = new System.Drawing.Size(321, 185);
             this.panel1.TabIndex = 17;
             // 
             // labelControl18
@@ -184,9 +193,10 @@
             this.labelControl18.Appearance.Options.UseFont = true;
             this.labelControl18.Appearance.Options.UseForeColor = true;
             this.labelControl18.Enabled = false;
-            this.labelControl18.Location = new System.Drawing.Point(84, 72);
+            this.labelControl18.Location = new System.Drawing.Point(112, 89);
+            this.labelControl18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl18.Name = "labelControl18";
-            this.labelControl18.Size = new System.Drawing.Size(60, 45);
+            this.labelControl18.Size = new System.Drawing.Size(75, 56);
             this.labelControl18.TabIndex = 1;
             this.labelControl18.Text = "655";
             // 
@@ -197,9 +207,10 @@
             this.labelControl19.Appearance.Options.UseFont = true;
             this.labelControl19.Appearance.Options.UseForeColor = true;
             this.labelControl19.Enabled = false;
-            this.labelControl19.Location = new System.Drawing.Point(22, 36);
+            this.labelControl19.Location = new System.Drawing.Point(29, 44);
+            this.labelControl19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl19.Name = "labelControl19";
-            this.labelControl19.Size = new System.Drawing.Size(199, 19);
+            this.labelControl19.Size = new System.Drawing.Size(242, 24);
             this.labelControl19.TabIndex = 0;
             this.labelControl19.Text = "Total Department Count";
             // 
@@ -209,25 +220,30 @@
             this.panel2.Controls.Add(this.labelControl18);
             this.panel2.Controls.Add(this.labelControl19);
             this.panel2.Enabled = false;
-            this.panel2.Location = new System.Drawing.Point(6, 1);
+            this.panel2.Location = new System.Drawing.Point(8, 1);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(241, 150);
+            this.panel2.Size = new System.Drawing.Size(321, 185);
             this.panel2.TabIndex = 15;
             // 
             // gridView1
             // 
             this.gridView1.Appearance.Row.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(156)))), ((int)(((byte)(218)))));
             this.gridView1.Appearance.Row.Options.UseBackColor = true;
+            this.gridView1.DetailHeight = 431;
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsEditForm.PopupEditFormWidth = 1067;
             this.gridView1.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.gridView1_FocusedRowChanged);
             // 
             // gridControl1
             // 
-            this.gridControl1.Location = new System.Drawing.Point(6, 157);
+            this.gridControl1.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gridControl1.Location = new System.Drawing.Point(8, 193);
             this.gridControl1.MainView = this.gridView1;
+            this.gridControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(982, 473);
+            this.gridControl1.Size = new System.Drawing.Size(1309, 582);
             this.gridControl1.TabIndex = 13;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -235,28 +251,31 @@
             // txtID
             // 
             this.txtID.Enabled = false;
-            this.txtID.Location = new System.Drawing.Point(96, 53);
+            this.txtID.Location = new System.Drawing.Point(128, 65);
+            this.txtID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtID.Name = "txtID";
             this.txtID.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.txtID.Size = new System.Drawing.Size(214, 18);
+            this.txtID.Size = new System.Drawing.Size(285, 20);
             this.txtID.TabIndex = 4;
             // 
             // labelControl7
             // 
             this.labelControl7.Appearance.ForeColor = System.Drawing.Color.Black;
             this.labelControl7.Appearance.Options.UseForeColor = true;
-            this.labelControl7.Location = new System.Drawing.Point(6, 56);
+            this.labelControl7.Location = new System.Drawing.Point(8, 69);
+            this.labelControl7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(84, 13);
+            this.labelControl7.Size = new System.Drawing.Size(100, 16);
             this.labelControl7.TabIndex = 19;
             this.labelControl7.Text = "DEPARTMENT ID:";
             // 
             // btnList
             // 
             this.btnList.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnList.ImageOptions.SvgImage")));
-            this.btnList.Location = new System.Drawing.Point(96, 361);
+            this.btnList.Location = new System.Drawing.Point(128, 444);
+            this.btnList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnList.Name = "btnList";
-            this.btnList.Size = new System.Drawing.Size(214, 40);
+            this.btnList.Size = new System.Drawing.Size(285, 49);
             this.btnList.TabIndex = 10;
             this.btnList.Text = "LIST";
             this.btnList.Click += new System.EventHandler(this.btnList_Click);
@@ -264,9 +283,10 @@
             // btnUpdate
             // 
             this.btnUpdate.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnUpdate.ImageOptions.SvgImage")));
-            this.btnUpdate.Location = new System.Drawing.Point(96, 315);
+            this.btnUpdate.Location = new System.Drawing.Point(128, 388);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(214, 40);
+            this.btnUpdate.Size = new System.Drawing.Size(285, 49);
             this.btnUpdate.TabIndex = 9;
             this.btnUpdate.Text = "UPDATE";
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
@@ -274,9 +294,10 @@
             // btnDelete
             // 
             this.btnDelete.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnDelete.ImageOptions.SvgImage")));
-            this.btnDelete.Location = new System.Drawing.Point(96, 269);
+            this.btnDelete.Location = new System.Drawing.Point(128, 331);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(214, 40);
+            this.btnDelete.Size = new System.Drawing.Size(285, 49);
             this.btnDelete.TabIndex = 8;
             this.btnDelete.Text = "DELETE";
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
@@ -284,19 +305,21 @@
             // btnSave
             // 
             this.btnSave.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnSave.ImageOptions.SvgImage")));
-            this.btnSave.Location = new System.Drawing.Point(96, 223);
+            this.btnSave.Location = new System.Drawing.Point(128, 274);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(214, 40);
+            this.btnSave.Size = new System.Drawing.Size(285, 49);
             this.btnSave.TabIndex = 7;
             this.btnSave.Text = "SAVE";
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(96, 79);
+            this.txtName.Location = new System.Drawing.Point(128, 97);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtName.Name = "txtName";
             this.txtName.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.txtName.Size = new System.Drawing.Size(214, 18);
+            this.txtName.Size = new System.Drawing.Size(285, 20);
             this.txtName.TabIndex = 5;
             // 
             // groupControl1
@@ -311,18 +334,20 @@
             this.groupControl1.Controls.Add(this.btnSave);
             this.groupControl1.Controls.Add(this.txtName);
             this.groupControl1.Controls.Add(this.labelControl1);
-            this.groupControl1.Location = new System.Drawing.Point(994, 1);
+            this.groupControl1.Location = new System.Drawing.Point(1325, 1);
+            this.groupControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(350, 629);
+            this.groupControl1.Size = new System.Drawing.Size(467, 774);
             this.groupControl1.TabIndex = 14;
             this.groupControl1.Text = "Department Processes";
             // 
             // txtBoxComment
             // 
             this.txtBoxComment.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtBoxComment.Location = new System.Drawing.Point(96, 108);
+            this.txtBoxComment.Location = new System.Drawing.Point(128, 133);
+            this.txtBoxComment.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtBoxComment.Name = "txtBoxComment";
-            this.txtBoxComment.Size = new System.Drawing.Size(214, 96);
+            this.txtBoxComment.Size = new System.Drawing.Size(285, 118);
             this.txtBoxComment.TabIndex = 6;
             this.txtBoxComment.Text = "";
             // 
@@ -330,9 +355,10 @@
             // 
             this.labelControl2.Appearance.ForeColor = System.Drawing.Color.Black;
             this.labelControl2.Appearance.Options.UseForeColor = true;
-            this.labelControl2.Location = new System.Drawing.Point(36, 108);
+            this.labelControl2.Location = new System.Drawing.Point(48, 133);
+            this.labelControl2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(54, 13);
+            this.labelControl2.Size = new System.Drawing.Size(65, 16);
             this.labelControl2.TabIndex = 20;
             this.labelControl2.Text = "COMMENT:";
             // 
@@ -340,23 +366,25 @@
             // 
             this.labelControl1.Appearance.ForeColor = System.Drawing.Color.Black;
             this.labelControl1.Appearance.Options.UseForeColor = true;
-            this.labelControl1.Location = new System.Drawing.Point(56, 82);
+            this.labelControl1.Location = new System.Drawing.Point(75, 101);
+            this.labelControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(32, 13);
+            this.labelControl1.Size = new System.Drawing.Size(38, 16);
             this.labelControl1.TabIndex = 3;
             this.labelControl1.Text = "NAME:";
             // 
             // FormDepartmentList
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1350, 627);
+            this.ClientSize = new System.Drawing.Size(1800, 772);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.gridControl1);
             this.Controls.Add(this.groupControl1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormDepartmentList";
             this.Text = "FormDepartmentList";
             this.Load += new System.EventHandler(this.FormDepartmentList_Load);
